@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{ page.title }} - {{ site.title }}</title>
+  </head>
+  <body>
+    <nav class="toc">
+      <div class="toc-lee">
+      {% for path in site.data.toc.lee %}
+        {% assign entry = site.pages | where: 'id', path | first %}
+        <a href="{{ entry.url }}">{{ entry.title }}</a>
+      {% endfor %}
+      </div>
+
+      <div class="toc-tekken">
+      {% for path in site.data.toc.tekken %}
+        {% assign entry = site.pages | where: 'id', path | first %}
+        <a href="{{ entry.url }}">{{ entry.title }}</a>
+      {% endfor %}
+      </div>
+    </nav>
+
+{{ content }}
+  </body>
+</html>

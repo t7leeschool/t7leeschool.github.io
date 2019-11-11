@@ -40,6 +40,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - README.md
 
 # Need this so that the _pages dir isn't skipped
 collections:

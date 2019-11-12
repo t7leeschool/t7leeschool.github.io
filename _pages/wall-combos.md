@@ -38,6 +38,6 @@ title: Wall combos
   Mid range | backdash; 4, 3, 4; W! 4, 3, (delayed) 4
   Tip range | backdash; 4, 3, 4; W! 4, u+3; f+4, 3; d+3
 
-## Resplats
-<https://youtu.be/vCFhs1WG20Y?t=235>\\
-<https://youtu.be/vmZ1mDO4Nqc?t=34>
+**Resplats**
+: <https://youtu.be/vCFhs1WG20Y?t=235>
+: <https://youtu.be/vmZ1mDO4Nqc?t=34>

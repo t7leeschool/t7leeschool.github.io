@@ -1,0 +1,14 @@
+{
+    "name": "T7 Lee School",
+    "short_name": "T7 Lee School",
+    "icons": [
+        {
+            "src": "/android-chrome-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#111111",
+    "background_color": "#222222",
+    "display": "standalone"
+}

@@ -47,6 +47,9 @@ collections:
   pages:
     output: true
     permalink: /:path
+  favicons:
+    output: true
+    permalink: /:path
 
 # Set the default layout to all pages
 defaults:

@@ -21,8 +21,8 @@ Acid rain (1,3:3:3)
 
 2,1,(3) CH
 : juggle with no screw
-: (slightly different from f333334 combo since starting at 0 aerial attacks)
-: 4u3 b2\~f,N(x4) f2,1 (71 damage)
+: (slightly different from f+3,3,3,3,3,4 combo since starting at 0 aerial attacks)
+: 4,u+3 b+2,f\~N(x4) f+2,1 (71 damage)
 
 4,3,(3)
 d4,4,3,(3)
@@ -113,4 +113,4 @@ f+2,1
 ## Video summary
 <https://youtu.be/07dn7tG78O4>
 
-![s3 lee](https://cdn.discordapp.com/attachments/362318093097107458/619209688160141332/s3_lee.jpg){: height="350"}
+![s3 lee](/assets/images/s3_lee.jpg){: width="350"}

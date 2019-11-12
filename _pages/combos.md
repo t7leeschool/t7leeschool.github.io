@@ -86,5 +86,5 @@ title: Combos
 <https://www.youtube.com/watch?v=ntjca7KSB9Q>
 
 ## Floor break guide
-<https://discordapp.com/channels/361852916203651074/362318093097107458/449722984450621441>
-[more detailed link wanted here]\\
+<https://discordapp.com/channels/361852916203651074/362318093097107458/449722984450621441>\\
+[more detailed link wanted here]

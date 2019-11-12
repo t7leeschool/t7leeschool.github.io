@@ -31,7 +31,7 @@ Second f one frame before the 3, timed exactly with the recovery ending
 
 ## f+2,1 finisher after S! with 7 aerial attacks
 ## b+4 finisher after S! with 5 aerial attacks
-## micro dash for b+3,3,f\~N pickups
+## Micro dash for b+3,3,f\~N pickups
 
 f, F in the buffer period - don't mash
 

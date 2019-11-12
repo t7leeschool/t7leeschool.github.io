@@ -2,9 +2,9 @@
 
 There are essentially 3 ways to contribute:
 
-1. [Add new content](https://github.com/t7leeschool/t7leeschool.github.io/new/master#add-new-content)
-2. [Report wrong information](https://github.com/t7leeschool/t7leeschool.github.io/new/master#report-wrong-information)
-3. [Discuss changes that other people suggest](https://github.com/t7leeschool/t7leeschool.github.io/new/master#discuss-changes-that-other-people-suggest)
+1. [Add new content](https://github.com/t7leeschool/t7leeschool.github.io/blob/master/CONTRIBUTING.md#add-new-content)
+2. [Report wrong information](https://github.com/t7leeschool/t7leeschool.github.io/blob/master/CONTRIBUTING.md#report-wrong-information)
+3. [Discuss changes that other people suggest](https://github.com/t7leeschool/t7leeschool.github.io/blob/master/CONTRIBUTING.md#discuss-changes-that-other-people-suggest)
 
 ## Add new content
 

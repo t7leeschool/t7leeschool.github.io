@@ -11,8 +11,9 @@ title: Frame data
 **Frame data for Lee, comprehensive & accurate**
 : <https://cthor.me/Lee-movelist>
 
-**Frame data for all characters, mostly accurate**
+**Frame data for all characters, more readable than cthor**
+: <http://geppopotamus.info/game/tekken7fr/lee/data_en.htm>
+
+**Frame data for all characters, less accurate than geppo**
 : <http://rbnorway.org/t7-frame-data/>
 
-**Frame data for all characters, more accurate than rbnorway, but in Japanese**
-: <http://geppopotamus.info/game/tekken7fr/>

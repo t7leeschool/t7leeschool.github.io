@@ -286,6 +286,10 @@ $headers: 'h1', 'h2', 'h3', 'h4', 'h5', 'h6';
       margin-top: 0;
     }
   }
+
+  summary + #{$h} {
+    margin-top: 0;
+  }
 }
 
 h1 {
@@ -314,10 +318,25 @@ dd + dt {
 }
 
 dd {
-  margin-left: 1em;
+  margin-left: 2.5em;
+  text-indent: -1.5em;
 }
 
 img {
   filter: #{ "grayscale(var(--img-grayscale))" };
   max-width: 100%;
+}
+
+@supports (display: grid) {
+  @for $i from 4 through 16 {
+    .grid-mm#{$i} {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(#{$i}em, 1fr));
+      grid-gap: 1em;
+
+      & > * {
+        margin: 0;
+      }
+    }
+  }
 }

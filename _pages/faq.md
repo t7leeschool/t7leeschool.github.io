@@ -2,16 +2,16 @@
 title: How do I?
 ---
 
-## ws2, 4 during mist step
+## b+2,f\~N ws2,4
 
 b, N, 2, 4\\
 Note the neutral: b must be released before pressing 2
 
-## b+3, 3, f\~N after CH d+3, 4
+## CH d+3,4 b+3,3,f\~N
 
 Hold b, then press 3 exactly when Lee starts the "come on" motion with his hands
 
-## b+2, f\~N loops
+## b+2 loops
 
 Practice
 

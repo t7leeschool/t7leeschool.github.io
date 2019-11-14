@@ -16,4 +16,3 @@ title: Frame data
 
 **Frame data for all characters, less accurate than geppo**
 : <http://rbnorway.org/t7-frame-data/>
-

@@ -52,8 +52,6 @@ CH d+3,4
 CH Sway 4
 CH 1+2
 CH (2,1),1
-CH (1,2),4
-CH (HMS 1),4
 : b+3,3,f\~N b+2,4,3 S! b+2,f\~N f+2,1
 
 low parry
@@ -73,6 +71,10 @@ float
 
 CH FDFT 3
 : ws4 b+3,3,f\~N b+2,f\~N f+4,1 S! f+2,1
+
+CH (1,2),4
+CH (HMS 1),4
+: d+2 b+2,4,3 S! b+2,f\~N f+2,1
 
 CH (2,1),3
 CH (b+1+2),4
@@ -241,10 +243,6 @@ CH 1+2
 CH (2,1),1
 : b+3,3,f\~N b+2,f\~N(x3) ws2,4 S! f+2,1
 
-CH (1,2),4
-CH (HMS 1),4
-: b+3,3,f\~N b+2,4,3 S! b+2,f\~N f+2,1
-
 CH Sway 4
 : d+2 d+2 b+2,f\~N(x3) f+4,1 S! f+2,1
 
@@ -265,6 +263,10 @@ float
 
 CH FDFT 3
 : ws4 b+3,3,f\~N b+2,f\~N(x2) f+4,1 S! f+2,1
+
+CH (1,2),4
+CH (HMS 1),4
+: d+2 b+2,4,3 S! b+2,f\~N f+2,1
 
 CH (2,1),3
 CH (b+1+2),4

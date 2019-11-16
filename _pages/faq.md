@@ -21,7 +21,7 @@ Hold b, then press 3 exactly when Lee starts the "come on" motion with his hands
 For block punish, u/f+4 in the blockstun (complete the input in the buffer period to avoid getting the backflips)\\
 For whiff punish, u\~u/f+4 (crouch cancel)
 
-## f, F+3 after ws2, 3
+## f,F+3 after ws2,3
 
 First f in the buffer period\\
 Second f one frame before the 3, timed exactly with the recovery ending
@@ -34,8 +34,8 @@ f, F in the buffer period - don't mash
 
 ## HMS cancel
 
-D, d/b, b\\
-D/F, b\\
+D,d/b,b\\
+D/F,b\\
 Hold the first input during the transition, then do the rest exactly as the transition finishes
 
 ## Fast HMS u/f+3

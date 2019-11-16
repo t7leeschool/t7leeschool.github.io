@@ -11,10 +11,6 @@ Note the neutral: b must be released before pressing 2
 
 Hold b, then press 3 exactly when Lee starts the "come on" motion with his hands
 
-## b+2 loops
-
-Practice
-
 ## Acid Rain & Mist Trap
 
 <https://www.youtube.com/watch?v=dd9gHRheRvQ>\\
@@ -22,7 +18,8 @@ Practice
 
 ## Hopkick (u/f+4) from crouch
 
-For block punish, u/f+4 in the blockstun (complete the input in the buffer period to avoid getting the backflips) For whiff punish, u\~u/f+4 (crouch cancel)
+For block punish, u/f+4 in the blockstun (complete the input in the buffer period to avoid getting the backflips)\\
+For whiff punish, u\~u/f+4 (crouch cancel)
 
 ## f, F+3 after ws2, 3
 

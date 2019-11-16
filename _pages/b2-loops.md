@@ -24,17 +24,6 @@ If you want a life outside of practising b2 loops, the answer is simple:
 practise while waiting for opponents. Try them in actual games occasionally.
 Don't force it.
 
-Conscious practise is only a means to subconscious mastery. A complete
-beginner could do an hour long session of nothing but b2 loops right now, get
-into the rhythm of it, and with warm hands hit 7 loops in a row. For the rest
-of the session they'll be on the level of conscious mastery. Their hit rate
-could be as high as 90%. Tomorrow that will vanish. Their subconscious mastery
-will budge an inch.
-
-The trick is recognizing that subconscious mastery occurs subconsciously. You
-do just enough practise that your brain says "hmm, I should look into
-this," then stop. Anything more is a waste of time.
-
 You'll lose a lot of games to dropped b2 loops. It's unavoidable.
 
 Then, one day, it'll all come together. This can take months, even years.

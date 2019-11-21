@@ -13,8 +13,11 @@ Hold b, then press 3 exactly when Lee starts the "come on" motion with his hands
 
 ## Acid Rain & Mist Trap
 
-<https://www.youtube.com/watch?v=dd9gHRheRvQ>\\
-<https://discordapp.com/channels/361852916203651074/362318093097107458/569703165398614051>
+<https://www.youtube.com/watch?v=dd9gHRheRvQ>
+
+<audio controls loop src="/assets/sounds/Acid_Rain_Timing.mp3">
+  Your browser does not support the audio element.
+</audio>
 
 ## Hopkick (u/f+4) from crouch
 
@@ -38,9 +41,20 @@ D,d/b,b\\
 D/F,b\\
 Hold the first input during the transition, then do the rest exactly as the transition finishes
 
-## Fast HMS u/f+3
+<details>
+<summary markdown="0">Fast HMS u/f+3</summary>
+In the buffer period of an HMS transition:
 
-<https://discordapp.com/channels/361852916203651074/459202763159633933/630749376586842145>
+- If you input u before u/f or 3, then HMS sidestep gets buffered
+- If you input u/f before 3, then forward jump gets buffered
+- If you input 3 before u/f, then HMS 3 gets buffered
+
+In other words, you must input u/f and 3 on the same frame to buffer it.
+
+The other option is to time the input perfectly. In this case, you input U/F in the buffer and press 3 when the transition finishes. You'll get a forward jump only if the 3 is pressed extremely late.
+
+3+4 takes 10 frames, so from neutral the fastest you can do HMS u/f+3 is 30 frames.
+</details>
 
 ## b+1:1, f\~N after b+2, f\~N in juggles
 

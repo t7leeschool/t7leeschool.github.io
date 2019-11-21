@@ -11,9 +11,19 @@ title: Mechanics
 **Back Turned State Test & Tip: Blocking and Frames** by Tekken Lab
 : <https://www.youtube.com/watch?v=SaqC8J69Gy4>
 
-**Input buffering**
-: <https://discordapp.com/channels/361852916203651074/362318093097107458/597010680226512908>
+<details>
+<summary markdown="0">Input buffering</summary>
+<!-- https://discordapp.com/channels/361852916203651074/362318093097107458/597010680226512908 -->
+moves you can't buffer are stance moves\\
+negan does not have a stance you enter by doing qcf\\
+meanwhile, paul's deathfist is actually crouchdash 2\\
+and you do crouchdash with paul by doing qcf\\
+same with yoshi and kazuya\\
+yoshi's dp2 is bufferable because the move is just dp2, not [stance you enter with dp] 2\\
+meanwhile, with kazuya, dp enters his crouchdash
+
 [more detailed link wanted here]
+</details>
 
 <details>
 <summary markdown="0">Backdash lengths</summary>

@@ -252,12 +252,34 @@ CH (u/f+3),1
 : f,F d/f+4 b+3,3,f\~N b+2,f\~N(x2) ws2,4 S! f+2,1
 </details>
 
-## BT d/f+3,2,3
-<https://discordapp.com/channels/361852916203651074/362381291905351692/601635972823908353>
+<details>
+<summary markdown="0">BT d/f+3,2,3</summary>
+<!-- https://discordapp.com/channels/361852916203651074/362381291905351692/601635972823908353 -->
+
+d/f+3,2,3 2 d+2 b+2,f\~N ws2,4 S! b+4 d+3 (97 dmg)
+
+This is the max damage at most angles. Note:
+
+- If you are left of the opponent's center back, you need to delay d+2
+- If you are right of their center back, you need to not delay d+2
+- If you are somewhat left of center and they are face up from b+2, then ws2 must hit very late to connect
+- If you are far enough that b+2 is going to turn them face-down, then there must be no delay for the ws2 to connect
+
+Other higher damage juggles:
+
+- d/f+3,2,3 2 f,F\~4,u+3 b+2,f\~N b+1:1,f\~N ws2,4 S! wr3,4\\
+  (dead center or slightly left of opponent's middle back, 99 dmg)
+- d/f+3,2,3 2 d+2 b+2,f\~N ws2,4 S! b+4 u/b+3\\
+  (vs. large normals, somewhat right of opponent's center back, really tough timing on the finish, 100 dmg)
+
+With rage, comboing anywhere from left of center back becomes very easy for good damage:
+
+- d/f+3,2,3 4,u+3 d/f+3+4,f\~N ws2,4 S! b+4 d+3 (114 dmg)
+</details>
 
 ## Spring kick
 <https://www.youtube.com/watch?v=P3NznMx6qf4>\\
-[more detailed and up-to-date link wanted here]
+[more detailed link wanted here]
 
 ## BT combos
 [link wanted here]
@@ -265,12 +287,24 @@ CH (u/f+3),1
 ## Off-axis combos
 [link wanted here]
 
-## Juggle distance guide
+## Juggle distance
 <https://www.youtube.com/watch?v=rnViLJDp2OQ>
 
-## Balcony break guide
+## Balcony break
 <https://www.youtube.com/watch?v=ntjca7KSB9Q>
 
-## Floor break guide
-<https://discordapp.com/channels/361852916203651074/362318093097107458/449722984450621441>\\
-[more detailed link wanted here]
+<details>
+<summary markdown="0">Floor break</summary>
+<!-- https://discordapp.com/channels/361852916203651074/362318093097107458/449722984450621441 -->
+At the wall, after a f43 to break you can do 4u3 to f4,3 -> d 3\\
+otherwise you want to go for a break that doesnt leave you BT (wr34 does this on hit without a combo) and do a generic bnb\\
+adapt for the hit that the floor break was\\
+so, if you somehow broke on the 2nd hit, you want to do the 4u3 b2 b2 b2 f21 combo\\
+or 4u3 b2 ws 24 b2 (make sure hits wall) b2 f43 d3\\
+because of how floor breaks work you likely wont get a standard bnb like you do a from a balcony break, but it's worth tring to wall carry\\
+especially as Forgotten Realm is a fairly clostrophobic stage\\
+I tend to do a bnb up until screw, then do WR34 to break and do SSR b4 for oki on floor breaks on a longer combo\\
+If you have <4 bar then only do 2x b2s so the WR34 is guaranteed
+
+[more detailed info wanted here]
+</details>

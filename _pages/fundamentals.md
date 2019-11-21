@@ -50,5 +50,15 @@ title: Fundamentals
 **JDCR option select**
 : <https://www.youtube.com/watch?v=dFOWYy2tArI>
 
-**How to lab sidestepping** by Phantasmagoria
-: <https://discordapp.com/channels/361852916203651074/362318093097107458/420460434064408597>
+<details>
+<summary markdown="0">How to lab sidestepping</summary>
+1. Go to practice mode with p2 set to the character you want to lab
+2. Select "Repeat action" from CPU action
+3. Record 1 jab into whatever move you want to test
+4. Play the recording, and try to step after the jab
+
+If you want to test extensively, replace the jab with something else. Moves
+can be harder or easier to step depending on the frame advantage, distance,
+and even angle. In some weird cases, such as Lee's 1 jab, the tracking of the next
+move can change a lot because it rotates his body to the right slightly.
+</details>

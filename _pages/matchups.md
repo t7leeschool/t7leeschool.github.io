@@ -1,5 +1,5 @@
 ---
-title: Anti-strats
+title: Matchups
 ---
 
 <details>

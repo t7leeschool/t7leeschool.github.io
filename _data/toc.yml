@@ -8,11 +8,11 @@ lee:
   - /wall-combos
   - /tracking
   - /setups
-  - /anti-strats
+  - /matchups
   - /punch-parry
   - /misc
-  - /classic-gameplay
-  - /recent-gameplay
+  - /players
+  - /matches
   - /s3-changes
 tekken:
   - /frame-data

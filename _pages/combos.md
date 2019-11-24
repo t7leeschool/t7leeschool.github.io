@@ -233,7 +233,7 @@ Bears
 
 Gigas, Jack, Marduk
 : b+1:1,2
-: b+1:1,f\~N, dash b+3,3,f\~N ws2,4 S! d,db+4
+: b+1:1,f\~N f\~b+3,3,f\~N ws2,4 S! d,D/B+4
 
 Bears
 : b+2,4,3 S! b+2,f\~N(x3) f+2,1
@@ -289,8 +289,12 @@ Late hit during the animation
 [link wanted here]
 
 ## Off-axis combos
-Combos involving b+2 after 4,u+3 done immediately after the launch
-: Launch, 4,u+3,f\~N f+4,1 S! b+2,f\~N b+2,f\~N f+2,1
+u/f+4
+d/f+2
+MS 3,4
+u/f\~N,4
+: 4,u+3,f\~N f+4,1 S! b+2,f\~N(x2) f+2,1
+: 4,u+3,f\~N f+4,1 S! 1,2,f\~N f+2,1
 
 ## Juggle distance
 <https://www.youtube.com/watch?v=rnViLJDp2OQ>

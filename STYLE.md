@@ -6,7 +6,7 @@ formatting, giving our readers a much better experience.
 ## Language
 
 Text should be as short as possible, and no shorter. Be precise. Avoid complex
-words when simpler ones will do. Authoritative language is preffered,
+words when simpler ones will do. Authoritative language is preferred,
 but must be backed up by accuracy. Be as comprehensive as possible.
 
 Use plain English. Tekken jargon is fine if there are no suitable plain English
@@ -20,7 +20,7 @@ legend](http://www.tekkenzaibatsu.com/legend.php).
 Use precise inputs and notation whenever possible, e.g. write "f,F" instead of
 "dash" or "microdash", and write "&lt;f+2,1" instead of "delay f+2,1".
 
-Exception is for b+2,f\~N ws2,4 which is preferred over b+2,f\~N b,N,2,4.
+Exceptions are for ws moves after a mist step, e.g. b+2,f\~N ws2,4 is preferred over b+2,f\~N b,N,2,4. 
 
 Don't write "f,F" when the dash is obvious, e.g. after S!.
 

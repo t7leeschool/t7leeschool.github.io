@@ -44,6 +44,19 @@ b+2,f\~N for b+2 into mist step.
 
 In combos with b2 loops, write e.g. b+2,f\~N(x2) instead of b+2,f\~N b+2,f\~N.
 
+### Held directional inputs
+
+For Lee, the relevant moves are:
+
+- b,B+4(,3)
+- f,F+3
+- f,F+4
+- f,f,F+3,4(,3)
+- d,D/B+4
+- FC d/f,d,D/F+4
+
+This notation is important for precision. For moves like these, the directional input has to be held for at least 1 frame before the paired attack input. This is unlike a regular paired input such as b+4 where they both can be pressed on the same frame.
+
 ### Grounded states
 
 | ✔️ | ❌ | State |

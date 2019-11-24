@@ -31,8 +31,8 @@ this purpose: FC, HMS, MS, Sway, BT, FUFT, FUFA, FDFT, FDFA.
 
 Commas should only separate inputs within a string.
 
-| Good | CH HMS 4 ws2,3 b+2,f\~N ws2,4 S! f+2,1
-| Bad  | CH HMS 4, WS 2,3, b+2,f\~N, WS 2,4, S! f+2,1
+✔️ CH HMS 4 ws2,3 b+2,f\~N ws2,4 S! f+2,1\
+❌ CH HMS 4, WS 2,3, b+2,f\~N, WS 2,4, S! f+2,1
 
 ### Mist step
 
@@ -43,10 +43,12 @@ In combos with b2 loops, write e.g. b+2,f\~N(x2) instead of b+2,f\~N b+2,f\~N.
 
 ### Grounded states
 
-| FUFT | Face up, Feet towards
-| FUFA | Face up, Feet away
-| FDFT | Face down, Feet towards
-| FDFA | Face down, Feet away
+| ✔️ | ❌ | State |
+| -- | -- | -- |
+| FUFT | KND | Face up, Feet towards |
+| FUFA | PLD | Face up, Feet away |
+| FDFT | FCD | Face down, Feet towards |
+| FDFA | SLD | Face down, Feet away |
 
 ## Formatting
 

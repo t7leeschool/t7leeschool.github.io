@@ -6,8 +6,11 @@ formatting, giving our readers a much better experience.
 ## Language
 
 Text should be as short as possible, and no shorter. Be precise. Avoid complex
-words when simpler ones will do. Formal, authoritative language is preffered,
+words when simpler ones will do. Authoritative language is preffered,
 but must be backed up by accuracy. Be as comprehensive as possible.
+
+Use plain English. Tekken jargon is fine if there are no suitable plain English
+words, or if avoiding jargon would be too verbose.
 
 ## Notation
 

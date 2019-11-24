@@ -233,6 +233,7 @@ Bears
 
 Gigas, Jack, Marduk
 : b+1:1,2
+: b+1:1,f\~N, dash b+3,3,f\~N ws2,4 S! d,db+4
 
 Bears
 : b+2,4,3 S! b+2,f\~N(x3) f+2,1
@@ -281,11 +282,15 @@ With rage, comboing anywhere from left of center back becomes very easy for good
 <https://www.youtube.com/watch?v=P3NznMx6qf4>\\
 [more detailed link wanted here]
 
+Late hit during the animation
+: d+4,n+4,u+3,f\~N, f+4,1 S! b+2,f\~N f+2,1
+
 ## BT combos
 [link wanted here]
 
 ## Off-axis combos
-[link wanted here]
+Combos involving b+2 after 4,u+3 done immediately after the launch
+: Launch, 4,u+3,f\~N f+4,1 S! b+2,f\~N b+2,f\~N f+2,1
 
 ## Juggle distance
 <https://www.youtube.com/watch?v=rnViLJDp2OQ>

@@ -51,8 +51,8 @@ since all you have to do is drill that tempo in and then bang out the beats.
 
 The second method uses a more complex rhythm. You might think it's the same as
 the first only with an invisible beat, but if you listen carefully you'll hear
-that the first two beats for each method (wa-da and boo-doop) are at different
-timings. Why is this?
+that the first two beats for each method ("wa-da" and "boo-doop") are at
+different timings. Why is this?
 
 Let's look back at the input windows. What tempo do we use with five beats?
 Every 8 frames, it's 0--8--16--24--32, and the last input misses. Every 9

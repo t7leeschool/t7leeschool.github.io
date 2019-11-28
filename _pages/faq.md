@@ -11,13 +11,9 @@ Note the neutral: b must be released before pressing 2
 
 Hold b, then press 3 exactly when Lee starts the "come on" motion with his hands
 
-## Acid Rain & Mist Trap
+## Mist Trap
 
-<https://www.youtube.com/watch?v=dd9gHRheRvQ>
-
-<audio controls loop src="/assets/sounds/Acid_Rain_Timing.mp3">
-  Your browser does not support the audio element.
-</audio>
+<https://youtu.be/dd9gHRheRvQ?t=172>
 
 ## Hopkick (u/f+4) from crouch
 

@@ -13,7 +13,7 @@ title: Punishers
 i10 | 1,3:3:3; d,D/B+4 | 47 dmg | u/b+3 follow up is easier, but does 3 less dmg
 i15 | f+3,3,3,3,3,4 | 66 dmg (JGL)
 
-### if you can't do acid rain
+### if you can't do Acid Rain
 
 i10 | 1,2,4 | 26 dmg
 i11 | 4,3 | 30 dmg

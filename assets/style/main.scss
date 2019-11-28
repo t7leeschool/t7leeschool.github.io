@@ -163,11 +163,11 @@ main {
   max-width: $main-width;
   padding: 0;
   padding-bottom: 10em;
-  padding-right: 1em;
 }
 
 main > * {
   margin-left: 1rem;
+  margin-right: 0.5rem;
 }
 
 nav {
@@ -253,10 +253,11 @@ main a {
   }
 }
 
-$paragraphs: 'p', '.p', 'ol', 'ul', 'dl', 'pre', 'figure', 'video', 'hr', 'table', 'details';
+$paragraphs: 'p', '.p', 'ol', 'ul', 'dl', 'pre', 'figure', 'audio', 'video', 'hr', 'table', 'details';
 
 @each $p in $paragraphs {
   #{$p} {
+    display: block;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -325,6 +326,18 @@ dd {
 img {
   filter: #{ "grayscale(var(--img-grayscale))" };
   max-width: 100%;
+}
+
+figure {
+  overflow-x: auto;
+
+  img {
+    display: block;
+    height: 100%;
+    width: auto;
+    max-width: none;
+    margin-right: 1em;
+  }
 }
 
 @supports (display: grid) {

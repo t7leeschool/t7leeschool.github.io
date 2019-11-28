@@ -1,5 +1,5 @@
 ---
-title: Acid rain
+title: Acid Rain
 ---
 
 The timing for the overall best method is:
@@ -106,7 +106,7 @@ second 3 when you see the first 3 connecting, then use a 10 frame tempo for
 the third 3.
 
 The big problem here is that it requires input delay to be fixed. If you only
-ever play offline, and with the same setup, this might be viable solution. But
+ever play offline, and with the same setup, this might be a viable solution. But
 even then it's probably not advisable, since visual confirms are a lot harder
 to train to perfection than rhythms.
 

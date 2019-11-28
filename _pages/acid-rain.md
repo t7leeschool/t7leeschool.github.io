@@ -13,7 +13,7 @@ because it's a punisher, you need to just frame the block stun or your tempo
 will be off.
 
 Unlike b2 loops, the difference between Acid Rain and the alternatives (in
-particular 1,2,4 and 4,3) are significant. Not only do the easy i11 and below
+particular 1,2,4 and 4,3) is significant. Not only do the easy i11 and below
 punishers do much less damage, they are all minus on hit, whereas Acid
 Rain gives good oki. So learning Acid Rain is a higher priority than learning
 b2 loops.

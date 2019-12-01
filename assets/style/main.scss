@@ -54,20 +54,20 @@
   --serif: SourceSerif, serif;
   --mono: SourceCode, monospace;
 
+  --main-bg: #222;
+  --main-fg: #eee;
+  --main-anchor: #00a7f0; // hsluv 240 100 65
+  --main-visited: #93ccff; // xhsluv 240 100 80
+  --main-rule: #ccc;
 
-  --bg-main: #222;
-  --fg-main: #eee;
-  --fg-main-anchor: #00a7f0; // hsluv 240 100 65
-  --fg-main-visited: #ea65ff; // hsluv 300 100 65
+  --nav-bg: #111;
+  --nav-fg: #eee;
+  --nav-cat: #60d7e0; // hsluv 200 80 80
+  --nav-pip: #888;
+  --nav-hover: #666;
 
-  --fg-rule: #ccc;
-
-  --bg-nav: #111;
-  --fg-nav: #eee;
-
-  --fg-nav-cat: #60d7e0; // hsluv 200 80 80
-  --bg-nav-pip: #888;
-  --bg-nav-hover: #666;
+  --flash-bg: #1a2733; // hsluv 0 50 15
+  --flash-border: #34495c; // hsluv 0 50 30
 
   --img-grayscale: 30%;
 }
@@ -88,16 +88,16 @@ $nav-width: 12em;
 $main-width: 45em;
 
 body {
-  background-color: var(--bg-main);
-  color: var(--fg-main);
+  background-color: var(--main-bg);
+  color: var(--main-fg);
   padding: 0;
   margin: 0;
   font-size: 16px;
 }
 
 nav {
-  background-color: var(--bg-nav);
-  color: var(--fg-nav);
+  background-color: var(--nav-bg);
+  color: var(--nav-fg);
   font-family: var(--sans);
 
   position: fixed;
@@ -130,7 +130,7 @@ nav {
 }
 
 .toc-heading {
-  color: var(--fg-nav-cat);
+  color: var(--nav-cat);
   margin-top: 1em;
   font-size: 1.1em;
   letter-spacing: 0.02em;
@@ -150,11 +150,11 @@ nav {
   &:hover,
   &.current {
     text-decoration: none;
-    background-color: var(--bg-nav-hover);
+    background-color: var(--nav-hover);
   }
 
   &.current {
-    border-left: 0.5em solid var(--bg-nav-pip);
+    border-left: 0.5em solid var(--nav-pip);
   }
 }
 
@@ -183,7 +183,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: var(--bg-nav);
+  background-color: var(--nav-bg);
   font-family: var(--sans);
   font-weight: bold;
   font-variant: small-caps;
@@ -231,7 +231,7 @@ nav {
   font-size: 1em;
 
   a:visited {
-    color: var(--fg-main-anchor);
+    color: var(--main-anchor);
   }
 }
 
@@ -240,12 +240,12 @@ nav {
 // #############################################################################
 
 main a {
-  color: var(--fg-main-anchor);
+  color: var(--main-anchor);
   text-decoration: none;
   word-break: break-word;
 
   &:visited {
-    color: var(--fg-main-visited);
+    color: var(--main-visited);
   }
 
   &:hover {
@@ -296,7 +296,7 @@ $headers: 'h1', 'h2', 'h3', 'h4', 'h5', 'h6';
 h1 {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
-  border-bottom: 3px double var(--fg-rule);
+  border-bottom: 3px double var(--main-rule);
   font-variant: small-caps;
   font-weight: normal;
   font-family: var(--sans);
@@ -310,7 +310,6 @@ h2, summary {
 }
 
 h3 {
-  // font-family: var(--sans);
   font-size: 1em;
 }
 
@@ -352,4 +351,27 @@ figure {
       }
     }
   }
+}
+
+.flash {
+  background-color: var(--flash-bg);
+  border-color: var(--flash-border);
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.5em;
+}
+
+.footnotes {
+  padding-top: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-top: 1px solid var(--main-rule);
+}
+
+.chrome {
+  display: none;
+}
+
+html[data-useragent*="Chrom"]:not([data-useragent*="Edge"]) .chrome {
+  display: block;
 }

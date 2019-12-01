@@ -13,7 +13,11 @@ Hold b, then press 3 exactly when Lee starts the "come on" motion with his hands
 
 ## Mist Trap
 
-<https://youtu.be/dd9gHRheRvQ?t=172>
+<audio controls loop src="/assets/sounds/mist-trap-metronome.ogg">
+  Your browser does not support the audio element.
+</audio>
+
+Input 3:3:3:4. If you do a filler 4, it won't work.
 
 ## Hopkick (u/f+4) from crouch
 

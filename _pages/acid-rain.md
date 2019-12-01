@@ -2,8 +2,14 @@
 title: Acid Rain
 ---
 
-The timing for the overall best method is:
-<audio controls loop src="/assets/sounds/acid-delay.mp3">
+There's a bug in Chrome that [audio loops aren't
+seamless.](https://bugs.chromium.org/p/chromium/issues/detail?id=353072) Use
+Firefox or Edge for practise.
+{: .chrome .flash }
+
+The timing for the best method is:
+
+<audio controls loop src="/assets/sounds/acid-14-14-10-metronome.ogg">
   Your browser does not support the audio element.
 </audio>
 
@@ -40,37 +46,50 @@ Notice that the first 3 can be input after the 1 jab's active frame. This
 actually delays the first 3, which delays the input windows of the just frames
 as well.
 
-## Popular methods
+## Common methods
 
 [As Imyourfather shows](https://www.youtube.com/watch?v=dd9gHRheRvQ), there
-are two popular methods: Adding a filler input ("wa-da-da-da-da"), and doing
+are two common methods: Adding a filler input ("wa-da-da-da-da"), and doing
 only the required inputs ("boo-doop boop boop").
 
-The first method uses a fixed rhythm. For a lot of people this is easiest,
-since all you have to do is drill that tempo in and then bang out the beats.
+The first method uses a simple rhythm with a tempo of 8.5 frames, so notes are
+on frames 0--8.5--17--25.5--34. For a lot of people this is easiest, since all
+you have to do is drill that tempo in and then bang out the notes:
 
-The second method uses a more complex rhythm. You might think it's the same as
-the first only with an invisible beat, but if you listen carefully you'll hear
-that the first two beats for each method ("wa-da" and "boo-doop") are at
-different timings. Why is this?
+<audio controls loop src="/assets/sounds/acid-wa-da-da-da-da-metronome.ogg">
+  Your browser does not support the audio element.
+</audio>
 
-Let's look back at the input windows. What tempo do we use with five beats?
-Every 8 frames, it's 0--8--16--24--32, and the last input misses. Every 9
-frames, it's 0--9--18--27--36, and both are off by one. Every 8.5 frames, it's
-0--8.5--17--25.5--34, and it works. 8.5 frames per second could be thought of
-as 510bpm, or 102bpm if you think of the inputs as fifths.
+The second method uses a more complex rhythm:
 
-On the other hand, with four beats you might want to use a different rhythm,
-for example, 0--4--24--34. This is Imyourfather's "boo-doop boop boop". What's
-the advantage here? Instead of the rhythm being based on a 8.5 frame tempo,
-this one is based on a 10 frame tempo. This could be thought of as 360bpm, or
-90bpm if you think of the inputs as quarters. For some people this tempo is
-much easier, and the first input being off tempo is less of an issue.
+<audio controls loop src="/assets/sounds/acid-4-20-10-metronome.ogg">
+  Your browser does not support the audio element.
+</audio>
 
-The other rhythm for this method is 0--10--24--34. For some people this rhythm
-is easier, since instead the off-beat is on the rest:
+This is Imyourfather's "boo-doop boop boop".[^1] The notes are on frames
+0--4--24--34.
 
-<audio controls loop src="/assets/sounds/acid-regular.mp3">
+You could also use 0--10--24--34. For some people this rhythm is easier, since
+the first and last intervals are the same:
+
+<audio controls loop src="/assets/sounds/acid-10-14-10-metronome.ogg">
+  Your browser does not support the audio element.
+</audio>
+
+You could even make a *slight* alteration to that by doing 0--10--25--35. This
+way, the second interval is exactly one half longer than the other intervals,
+which should be a bit easier:
+
+<audio controls loop src="/assets/sounds/acid-10-15-10-metronome.ogg">
+  Your browser does not support the audio element.
+</audio>
+
+The point of this method is to do fewer inputs. It does also happen to change
+the tempo, but a 10 frame tempo is no easier than a 8.5 frame one.
+
+Of course, you *could* stick with a 8.5 frame tempo anyway:
+
+<audio controls loop src="/assets/sounds/acid-wa-da-da-da-metronome.ogg">
   Your browser does not support the audio element.
 </audio>
 
@@ -105,7 +124,7 @@ One potential solution is to visually confirm the input---that is, press the
 second 3 when you see the first 3 connecting, then use a 10 frame tempo for
 the third 3.
 
-The big problem here is that it requires input delay to be fixed. If you only
+For this to work, however, you need a fixed input delay. If you only
 ever play offline, and with the same setup, this might be a viable solution. But
 even then it's probably not advisable, since visual confirms are a lot harder
 to train to perfection than rhythms.
@@ -129,9 +148,25 @@ inputs are on frames 0--14--28--38, which works.
 
 This is, fortunately, not a difficult rhythm: (same audio as top of the page)
 
-<audio controls loop src="/assets/sounds/acid-delay.mp3">
+<audio controls loop src="/assets/sounds/acid-14-14-10-metronome.ogg">
   Your browser does not support the audio element.
 </audio>
 
 This method allows the input to be done up to 4 frames into the input buffer,
 making it a lot easier to use as a punisher.
+
+[^1]:
+    Or at least it should be. But he's *wildly* off rhythm with his voice.
+    The first "boop" is played too early, making the rhythm closer to
+    0--4--21--34:
+
+    <audio controls loop src="/assets/sounds/acid-boo-doop.ogg">
+      Your browser does not support the audio element.
+    </audio>
+
+    That timing doesn't work, but his *voice* isn't the one making the inputs.
+    If you listen to his button clicks, they're on a 0--5--25--35 rhythm,
+    which is why it still works.
+
+    (It's interesting that his muscle memory is so strong that it totally
+    ignores the off-timed cue he's giving himself.)

@@ -8,7 +8,23 @@ title: Moves
 ## Useful HMS transition
 
 - b+4,3
-- f,f,F+3,4,3
+## f,f,F+3,4,3
+
+- +6 on block, KND on hit
+- Lee's running move that gives free plus frames with second hit, floor break with second hit, wall break with first hit.
+- Use it to close distances from range 1+ and gain plus frames on the side.
+  - Doing the f,f,F motion does telegraph your f,f,F+3,4,3 attempt if done from afar
+  - Opponents can side step this move easily on reaction to your telegraph.
+  - Practice instant while running motion to force proper use.
+- Ends in HMS and on block provides an uninterruptible HMS 1+2 attempt if done as soon as HMS transition recovers.
+  - Lili and Alisa can side-step-left HMS 1+2.
+- All moves slower than i15 are uninterruptible on block.
+- On hit opponent goes in a backrollable spike animation
+  - If the opponent does not backroll out of the spike (by not holding B), then Lee gets a free HMS uf+4 on-the-ground hit.
+- Can be performed with usual instant while running motion techniques.
+- Gives free combo on hit on floor-break stages starting with aerial hit 2 because the second hit breaks floors on aerial hit.
+  - Use at wall splats/tailspins when near the wall to break the floor to get a high wallsplat combo after.
+
 - b+1:1,3+4
 - d/f+4,3
 - ws4,3

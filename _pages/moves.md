@@ -5,9 +5,23 @@ title: Moves
 ## Top moves
 <https://cthor.me/Lee-movelist#top-moves>
 
-## Useful HMS transition
+## Useful HMS transitions
 
-- b+4,3
+## b+4,3
+
+- With the HMS cancel, b+4 becomes -2~-0 on block, +8~+10 on hit along with the properties of b+4
+- The best keepout tool that Lee has. Larger than normal vertical hitbox and a forward range is generous.
+  - Notorious tracking to both sides if the 3 is delayed (effectively a b+4>3), to the extent that it is now called as 'pseudo-homing' because it almost acts as a homing move.
+  - The HMS cancel puts Lee far back from the hitbox which makes whiff punishing this move harder for the opponent.
+  - HMS 2 follow up goes under most highs with a restricted vertical hitbox e.g. Jabs.
+  - HMS 3 powercrush follow up catches anything slower than a jab. i10 moves (like jabs) will get consumed by the power crush and allow the opponent to duck under HMS 3.
+  - Use as a keepout tool mainly. However, it can be used to imply a frame data mind game on block at close range.
+  - On counter hit, pickup with HMS~f, ws 2,3 into the rest of the staple combo.
+- Cancelling into stand guard from b+4,3 should be practiced by inputting d,db,b (quarter circle back motion) during the recovery of b+4,3 i.e. as soon as Lee lands his right foot on the ground. Cancelling saves you from being locked in HMS, and saves you from unwarranted whiff punishes from the opponent.
+  - The cancel into stand guard can be limited to only d,db to enter FC directly from HMS and imply a FC mixup if needed.
+- Moves out of the HMS can be used to consume the opponent's tries to whiff punish your out-of-range b4 whiffs.
+- Should not be abused against characters with long range whiff punishment.
+
 ## f,f,F+3,4,3
 
 - +6 on block, KND on hit

@@ -1,4 +1,5 @@
-SetBatchLines -1  ; Ensures maximum effectiveness of this method.
+SetBatchLines -1
+SendMode Input
 TimePeriod := 3
 DllCall("QueryPerformanceFrequency", "Int64*", Frequency)
 

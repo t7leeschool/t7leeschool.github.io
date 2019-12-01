@@ -7,7 +7,8 @@ title: Moves
 
 ## Useful HMS transitions
 
-## b+4,3
+<details>
+<summary markdown="0">b+4,3</summary>
 
 - With the HMS cancel, b+4 becomes -2~-0 on block, +8~+10 on hit along with the properties of b+4
 - The best keepout tool that Lee has. Larger than normal vertical hitbox and a forward range is generous.
@@ -22,7 +23,10 @@ title: Moves
 - Moves out of the HMS can be used to consume the opponent's tries to whiff punish your out-of-range b4 whiffs.
 - Should not be abused against characters with long range whiff punishment.
 
-## f,f,F+3,4,3
+</details>
+
+<details>
+<summary markdown="0">f,f,F+3,4,3</summary>
 
 - +6 on block, KND on hit
 - Lee's running move that gives free plus frames with second hit, floor break with second hit, wall break with first hit.
@@ -39,21 +43,84 @@ title: Moves
 - Gives free combo on hit on floor-break stages starting with aerial hit 2 because the second hit breaks floors on aerial hit.
   - Use at wall splats/tailspins when near the wall to break the floor to get a high wallsplat combo after.
 
-- b+1:1,3+4
-- d/f+4,3
-- ws4,3
-- 3,4
-- 1,2,4,3
-- FC d/f+4,3
-- d+3,4
-- f+3,3,4,3
-- 1+2,3+4
-- ws3,3,4
-- b,B+4,3
-- 2,1,3+4
-- HMS 1,4,3
-- D+4,4,4,4,3
-- d+3+4,3+4
+</details>
+
+<details>
+<summary markdown="0">b+1:1,3+4</summary>
+
+</details>
+
+<details>
+<summary markdown="0">d/f+4,3</summary>
+
+</details>
+
+<details>
+<summary markdown="0">ws4,3</summary>
+
+</details>
+
+<details>
+
+<summary markdown="0">3,4</summary>
+
+</details>
+
+<details>
+
+<summary markdown="0">1,2,4,3</summary>
+
+</details>
+
+<details>
+<summary markdown="0">FC d/f+4,3</summary>
+
+</details>
+
+<details>
+<summary markdown="0">d+3,4</summary>
+
+</details>
+
+<details>
+<summary markdown="0">f+3,3,4,3</summary>
+
+</details>
+
+<details>
+<summary markdown="0">1+2,3+4</summary>
+
+</details>
+
+<details>
+<summary markdown="0">ws3,3,4</summary>
+
+</details>
+
+<details>
+<summary markdown="0">b,B+4,3</summary>
+
+</details>
+
+<details>
+<summary markdown="0">2,1,3+4</summary>
+
+</details>
+
+<details>
+<summary markdown="0">HMS 1,4,3</summary>
+
+</details>
+
+<details>
+<summary markdown="0">D+4,4,4,4,3</summary>
+
+</details>
+
+<details>
+<summary markdown="0">d+3+4,3+4</summary>
+
+</details>
 
 ## d/f+4
 

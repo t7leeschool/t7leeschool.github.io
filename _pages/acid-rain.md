@@ -2,11 +2,6 @@
 title: Acid Rain
 ---
 
-There's a bug in Chrome that [audio loops aren't
-seamless.](https://bugs.chromium.org/p/chromium/issues/detail?id=353072) Use
-Firefox or Edge for practise.
-{: .chrome .flash }
-
 The timing for the best method is:
 
 <audio controls loop src="/assets/sounds/acid-14-14-10-metronome.ogg">

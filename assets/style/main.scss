@@ -367,11 +367,3 @@ figure {
   margin-bottom: 1em;
   border-top: 1px solid var(--main-rule);
 }
-
-.chrome {
-  display: none;
-}
-
-html[data-useragent*="Chrom"]:not([data-useragent*="Edge"]) .chrome {
-  display: block;
-}

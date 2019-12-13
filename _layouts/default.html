@@ -23,10 +23,6 @@
     <meta name="theme-color" content="#111111">
   </head>
   <body>
-    <script>
-      var b = document.documentElement;
-      b.setAttribute('data-useragent',  navigator.userAgent);
-    </script>
     <nav>
       <div class="toc-scroll">
         <div class="toc">
@@ -76,6 +72,41 @@
         e.stopPropagation();
         document.body.classList.add('expanded');
         document.querySelector('main').addEventListener('click', closeMenu);
+      });
+    </script>
+    <script>
+      document.querySelectorAll('audio').forEach((el) => {
+        if (!el.loop) return;
+        var t0;
+
+        el.addEventListener(
+          'seeked',
+          function testLoop (e) {
+            var t = performance.now();
+
+            if (typeof el.duration !== 'undefined' && typeof t0 !== 'undefined') {
+              var diff = Math.abs(t - t0 - el.duration * 1000);
+              if (diff < 200) {
+                // Loop found, stop testing
+                el.removeEventListener('seeked', testLoop);
+
+                if (diff > 80) {
+                  // Choppy loop, display warning
+                  var warning = document.createElement('p');
+                  warning.className = 'flash loop-warning';
+                  warning.innerHTML =
+                    'There’s a bug in Chrome that '
+                    + '<a href="https://bugs.chromium.org/p/chromium/issues/detail?id=353072">'
+                    + 'audio loops aren’t seamless.</a> '
+                    + 'Use Firefox or Edge for practise.';
+                  el.insertAdjacentElement('afterend', warning);
+                }
+              }
+            }
+
+            t0 = t;
+          },
+        );
       });
     </script>
   </body>

@@ -59,13 +59,13 @@ So to use the input buffer for b2 loops, you have to press b and 2 on the same
 frame.
 
 This isn't quite useful as it seems. If you use the input buffer, you throw
-your tempo off. You're generally better off sticking to the good tempo than
-trying to use the buffer. It can be useful when you need a frame perfect b2
-loop, such as when the opponent is slightly off-axis.
+your tempo off. You're generally better off sticking to the good tempo rather
+than trying to use the buffer. It can however be useful when you need a frame
+perfect b2 loop, such as when the opponent is slightly off-axis.
 
 This is also how b+2,f\~N b+1:1,f\~N links work. The b+1 must come out exactly
 when the b+2 ends, so you almost *have* to use the buffer, and either way you
-need to press b+1 on the same frame.
+need to press b and 1 on the same frame.
 
 [^1]: Against big characters, or if the opponent is higher up when first
       b+2,f\~N connected (e.g. d/f+2 b+2,f\~N), this window can be 1--2

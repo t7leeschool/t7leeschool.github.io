@@ -58,7 +58,7 @@ With b2 loops, however, there's a catch:
 So to use the input buffer for b2 loops, you have to press b and 2 on the same
 frame.
 
-This isn't quite useful as it seems. If you use the input buffer, you throw
+This isn't quite as useful as it seems. If you use the input buffer, you throw
 your tempo off. You're generally better off staying on tempo, especially for
 practising. It can however be useful when you need a frame perfect b2 loop,
 such as when the opponent is slightly off-axis.

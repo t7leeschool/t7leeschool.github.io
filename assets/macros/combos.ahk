@@ -24,6 +24,7 @@ StepTo(t0, delta) {
 
 StepToFrame(t0, frame) {
    StepTo(t0, frame * 1000 / 60)
+   return frame
 }
 
 b2fN(t0, c0 := 0) {
@@ -110,7 +111,7 @@ b2fNws24fF(t0, c0 := 0) {
    return c
 }
 
-f41fF(t0, c0 := 0) {
+f41(t0, c0 := 0) {
    StepToFrame(t0, c0)
    Send {d down}{p down}
    StepToFrame(t0, c0 + 2)
@@ -119,7 +120,12 @@ f41fF(t0, c0 := 0) {
    Send {j down}
    StepToFrame(t0, c0 + 10)
    Send {j up}
-   return fF(t0, c0 + 64)
+   return c0 + 64
+}
+
+f41fF(t0, c0 := 0) {
+   c0 := f41(t0, c0)
+   return fF(t0, c0)
 }
 
 N(t0, c0 := 0) {
@@ -137,6 +143,14 @@ ssl(t0, c0 := 0) {
    return c0 + 2
 }
 
+ki(t0, c0 := 0) {
+   StepToFrame(t0, c0)
+   Send {j down}{i down}{o down}{p down}
+   StepToFrame(t0, c0 + 2)
+   Send {j up}{i up}{o up}{p up}
+   return c0 + 60
+}
+
 df2(t0, c0 := 0) {
    StepToFrame(t0, c0)
    Send {d down}{s down}{i down}
@@ -146,11 +160,15 @@ df2(t0, c0 := 0) {
 }
 
 uf4(t0, c0 := 0) {
-   StepToFrame(t0, c0)
-   Send {d down}{w down}{p down}
-   StepToFrame(t0, c0 + 4)
-   Send {d up}{w up}{p up}
    return c0 + 46
+}
+
+b4(t0, c0 := 0) {
+   StepToFrame(t0, c0)
+   Send {a down}{p down}
+   StepToFrame(t0, c0 + 2)
+   Send {a up}{p up}
+   return c0 + 42
 }
 
 4u3(t0, c0 := 0) {
@@ -161,6 +179,20 @@ uf4(t0, c0 := 0) {
    StepToFrame(t0, c0 + 12)
    Send {w up}{o up}
    return c0 + 65
+}
+
+4u3fN(t0, c0 := 0) {
+   StepToFrame(t0, c0)
+   Send {p down}
+   StepToFrame(t0, c0 + 10)
+   Send {p up}{w down}{o down}
+   StepToFrame(t0, c0 + 12)
+   Send {w up}{o up}
+   StepToFrame(t0, c0 + 50)
+   Send {d down}
+   StepToFrame(t0, c0 + 54)
+   Send {d up}
+   return c0 + 73
 }
 
 f21(t0, c0 := 0) {
@@ -197,6 +229,23 @@ c := b2fN(t0, c)
 c := b2fN(t0, c)
 c := b11fNws24fF(t0, c)
 c := f21(t0, c + 31)
+EndTimer()
+return
+
+^o::
+t0 := StartTimer()
+c := ki(t0)
+c := b4(t0, c)
+c := fF(t0, c - 5)
+c := StepToFrame(t0, c + 10)
+Send {d up}
+c := 4u3fN(t0, c + 1)
+c := bN23(t0, c + 3)
+c := fF(t0, c - 9)
+c := StepToFrame(t0, c + 4)
+Send {d up}
+c := f41(t0, c + 3)
+
 EndTimer()
 return
 

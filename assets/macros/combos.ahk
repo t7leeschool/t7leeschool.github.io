@@ -163,6 +163,18 @@ uf4(t0, c0 := 0) {
    return c0 + 46
 }
 
+bk(t0, c0 := 0) {
+   StepToFrame(t0, c0)
+   Send {s down}
+   StepToFrame(t0, c0 + 1)
+   Send {a down}
+   StepToFrame(t0, c0 + 2)
+   Send {p down}
+   StepToFrame(t0, c0 + 5)
+   Send {s up}{a up}{p up}
+   return c0 + 64
+}
+
 b4(t0, c0 := 0) {
    StepToFrame(t0, c0)
    Send {a down}{p down}
@@ -217,7 +229,32 @@ iws23(t0, c0 := 0, d := 0) {
    return c0 + d ; fixme
 }
 
+iwsuf4(t0, c0 := 0) {
+   StepToFrame(t0, c0)
+   Send {s down}
+   StepToFrame(t0, c0 + 11)
+   Send {s up}{w down}{d down}
+   StepToFrame(t0, c0 + 12)
+   Send {p down}
+   StepToFrame(t0, c0 + 30)
+   Send {w up}{d up}{p up}
+   return c0 + 66
+}
+
 ^r::Reload
+
+^p::
+t0 := StartTimer()
+c := 0
+c := bk(t0)
+c := iwsuf4(t0, c + 1)
+Send {s down}
+c := StepToFrame(t0, c)
+Send {s up}{p down}
+c := StepToFrame(t0, c + 1)
+Send {p up}
+EndTimer()
+return
 
 ^i::
 t0 := StartTimer()

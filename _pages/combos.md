@@ -74,41 +74,67 @@ The key combo moves and their function are:
 
 Damage | Pickup | Filler | Screw | Ender
 |--|
-4,u+3          | b+3,3,f\~N     | b+2,f\~N   | ws2,4   | f+2,1
-4,u+3,f\~N     | ws2,3          | 1,2,f\~N   | f+4,1   | ws2,3
-4,3,4          | ws4            | b+1:1,f\~N | b+2,4,3 | f+1+2
-U/F,4          | d/f+4          | d/f+1      | 2,2,3   | wr3,4
-d+2            | d+2            | 2          | 2,1,3   | d+2
-b,B+4          | d+4,4,u+3,f\~N |            | b,B+4   | d/f+3,2,3
-SSL 3+4        | 3              |            | SSL 3+4 | b+4
-f,F+4 |||| 1+2
-|||| d/b+3
+4,u+3          | b+3,3,f\~N     | b+2,f\~N   | ws2,4     | f+2,1
+4,u+3,f\~N     | ws2,3          | 1,2,f\~N   | f+4,1     | ws2,3
+4,3,4          | ws4            | b+1:1,f\~N | b+2,4,3   | f+1+2
+U/F,4          | d/f+4          | d/f+1      | 2,2,3     | wr3,4
+d+2            | d+2            | 2          | 2,1,3     | d+2
+f,F+4          | d+4,4,u+3,f\~N |            | b,B+4     | d/f+3,2,3
+d/f+3+4        | 3              |            | SSL 3+4   | b+4
+|                               |            | SSR 3+4   | 1+2
+|                               |            | d/f+1+2,3 | d/b+3
 
 The main purpose for all these options is to get the right wall carry.
 
-Notes on specific options:
+Damage:
 
-- b+2,f\~N ws2,4 S! f+2,1 as 5--9th aerial hits is staple
-  - the last hit of ws2,4 whiffs for launchers that misalign, so do f+4,1 instead
-- b+2,f\~N &lt;screw\> S! b+2,f\~N &lt;ender\> works as 3--7th aerial hits
-  - does same damage as b+2,f\~N(x2) &lt;screw\> S! &lt;ender\>
-- b+2,f\~N f+2,1 works as 6--8th aerial hits
-- d+2 b+2 usually works as 2--3rd aerial hits
+- 4,u+3 b+2,f\~N works as aerial hits 2--4
+  - b+2,f\~N whiffs when off-axis
+- f,F+4 iws2,3 b+2,f\~N can work as aerial hits 1--4
+- f,F+4 d+2 d/f+3+4 S! can work as aerial hits 1--3
+- d+2 b+2,f\~N can work up to aerial hits 2--3, and very rarely 3--4
   - at some angles, d+2 needs to hit close to the ground
   - at other angles, it needs to hit far from the ground
-- d/f+3,2,3 works as 5--7th aerial hits
+
+Filler:
+
+- b+2,f\~N does 3 damage at max scaling and loops with itself
+  - doesn't loop off-axis
+- 1,2,f\~N does 4 damage at max scaling in 2 hits and carries less than b+2,f\~N(x2)
+- b+1:1,f\~N travels further than b+2,f\~N, which can allow an extra hit in the juggle
+  - to do b+2,f\~N b+1:1,f\~N; b and 1 must be pressed on the same frame
+- d/f+1 b+2,f\~N and 2 b+2,f\~N work as aerial hits 3--4
+
+Screws:
+
+- fastest to slowest recovery:
+  - b+2,4,3; ws2,4; f+4,1; 2,2,3; 2,1,3
+  - however, f+4,1 travels further than ws2,4 and carries less, so connecting enders off f+4,1 is easier
+- ws2,4 does 2 more damage than f+4,1 at max scaling (30%)
+- ws2,4 works as aerial hits 6--7
+  - aerial hit 7 whiffs when off-axis, especially to the right
+  - can work as aerial hits 7--8 after b+1:1,f\~N if precisely off-axis to the left
+- f+4,1 works as aerial hits 6--7
+  - usually works as aerial hits 7--8 after b+1:1,f\~N
+  - can work as aerial hits 7--8 after b+2,f\~N if precisely off-axis to the right
+- b+2,4,3 and 2,2,3 do the same damage as b+2,f\~N ws2,4 at max scaling (30%)
+- b+2,4,3 works up to aerial hits 3--5
+  - aerial hit 5 whiffs when off-axis to the right
+- b+2,4,3 flips over face-down opponents
+- 2,2,3; d/f+1+2,3; and SSR 3+4 rotates the juggle to the right
 
 Enders:
 
+- longest to shortest carry:
+  - f+2,1; ws2,3; f+1+2; d+2
 - ws2,3 f+2,1 and f+1+2 do 10 damage at max scaling (30%)
 - wr3,4 does 11 damage at max scaling, but won't wall splat
-- longest to shortest carry:
-  - f+2,1 ws2,3 f+1+2 d+2
 - ws2,3 gives better splats and oki
 - 1,2,f\~N can high splat
-- wr3,4 b+4 1+2 and d/b+3 floor break
-- b+4 1+2 and d/b+3 spike to setup oki
-- d/f+3,2,3 does 13 damage at max scaling, but is 3 hits
+- wr3,4; b+4; 1+2; and d/b+3 floor break
+- b+4; 1+2; and d/b+3 spike to setup oki
+- d/f+3,2,3 works as aerial hits 5--7
+- d/f+3,2,3 does 13 damage at max scaling in 3 hits
 </details>
 
 <details>
@@ -166,8 +192,8 @@ CH Sway 4
 <!-- -->
 
 low parry
-: 4,u+3 b+2,f\~N(x3) ws2,4 S! f+2,1
-: 4,u+3 b+2,f\~N ws2,4 S! b+2,f\~N ws2,3
+: F\~4,u+3 b+2,f\~N(x3) ws2,4 S! f+2,1
+: F\~4,u+3 b+2,f\~N ws2,4 S! b+2,f\~N ws2,3
 : d+2 b+2,f\~N d/f+1 b+2,f\~N ws2,4 S! f+2,1
 
 CH HMS 4
@@ -193,9 +219,9 @@ HMS 2
 
 d,D/B+4
 : U/F,4 4,u+3 b+2,f\~N(x2) f+4,1 S! f+2,1
-: U/F,4 d+2 b+2,f\~N(x3) f+4,1 S! f+2,1
-: U/F,4 d/f+1 b+2,f\~N ws2,4 S! b+2,f\~N ws2,3
-: 3\~3:4
+: U/F,4 &lt;d+2 b+2,f\~N(x3) ws2,4 S! f+2,1
+: U/F,4 d/f+1 b+2,f\~N(x3) ws2,4 S! f+2,1
+: &lt;U/F,4 4,u+3,f\~N f+4,1 S! b+2,f\~N ws2,3
 
 CH (1,2),4
 CH (HMS 1),4
@@ -208,7 +234,7 @@ CH (HMS 1),4,3
 CH (2,1),3
 CH (b+1+2),4
 : 4,u+3 b+2,f\~N(x4) f+2,1
-: 4,u+3 b+2,f\~N d/f+3,2,3
+: 4,u+3 b+2,f\~N 1,2,f\~N f+2,1
 
 (d/f+3,2),3
 : 2,2,3 S! b+2,f\~N 1,2,f\~N f+2,1
@@ -251,6 +277,9 @@ CH 1+2
 CH (2,1),1
 CH (u/f+3),1
 : f,F d/f+4 b+3,3,f\~N b+2,f\~N(x2) ws2,4 S! f+2,1
+
+d,D/B+4
+: 3\~3:4
 </details>
 
 <details>

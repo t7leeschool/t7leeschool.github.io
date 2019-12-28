@@ -307,12 +307,18 @@ With rage, comboing anywhere from left of center back becomes very easy for good
 - d/f+3,2,3 4,u+3 d/f+3+4,f\~N ws2,4 S! b+4 d+3 (114 dmg)
 </details>
 
-## Spring kick
-<https://www.youtube.com/watch?v=P3NznMx6qf4>\\
-[more detailed link wanted here]
+<details>
+<summary markdown="0">Spring kick (FUFT 3+4)</summary>
+Spring kick has 12 active frames. It typically connects on the 8--9th, unless the opponent is running into it.
 
-Late hit during the animation
-: d+4,n+4,u+3,f\~N, f+4,1 S! b+2,f\~N f+2,1
+- If it connects on the 11th frame, you can combo with d+4,4,u+3,f\~N, f+4,1 S!
+- If it connects on the 12th frame, you can combo with d/f+4 b+3,3,f\~N f+4,1 S!
+- If the opponent doesn't tech roll, then d/f+4 will almost always work as a refloat.
+
+If the spring kick hits an aerial opponent, then d/f+4 and d+4,4,u+3,f\~N
+pickups won't work, since there's too much pushback. Instead, you can try
+b+3,3,f\~N which might be too slow.
+</details>
 
 ## BT combos
 [link wanted here]

@@ -318,8 +318,12 @@ dd + dt {
 }
 
 dd {
-  margin-left: 2.5em;
-  text-indent: -1.5em;
+  margin-left: 0.5em;
+  text-indent: 0.25em;
+}
+
+dd li {
+  text-indent: 0;
 }
 
 img {

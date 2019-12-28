@@ -283,28 +283,64 @@ d,D/B+4
 </details>
 
 <details>
-<summary markdown="0">BT d/f+3,2,3</summary>
+<summary markdown="0">Off-axis</summary>
+u/f+4
+d/f+2
+MS 3,4
+u/f\~N,4
+: 4,u+3,f\~N d+2 f+4,1 S! b+2,f\~N f+2,1
+: 4,u+3,f\~N f+4,1 S! b+2,f\~N(x2) f+2,1
+: 4,u+3,f\~N f+4,1 S! 1,2,f\~N f+2,1
+</details>
+
+<details>
+<summary markdown="0">Back-turned</summary>
+Against big characters with short legs (Gigas, Jack, Marduk, bears):
+
+- Dead center of opponent's back:
+  - S! b+2,f\~N doesn't work; just go straight for f+2,1
+  - b+2,4,3 S! f+2,1 as aerial hits 3--7 won't work; do b+2,f\~N f+4,1 S! f+2,1 instead
+- b+3,3,f\~N b+2,f\~N doesn't work
+- b+3,3,f\~N 2 sometimes doesn't work; try b+3,3,f\~N 1 instead
+
+BT f+3,3,3,3,3,4
+: d+2 b+2,f\~N 1,2,f\~N f+2,1 (60 dmg)
+
+BT f+3,3,3,3,4
+: b+3,3,f\~N 2 b+2,f\~N f+4,1 S! f+2,1 (69 dmg)
+
+BT d,D/B+4
+: f,F\~4,u+3 b+2,f\~N(x3) ws2,4 S! f+2,1 (77 dmg)
+: f,F\~4,u+3 b+2,f\~N ws2,4 S! b+2,f\~N ws2,3 (74 dmg)
+: U/F,4 2 b+2,4,3 S! b+2,f\~N f+2,1 (73 dmg)
+: &lt;4,u+3 b+2,f\~N f+4,1 S! b+2,f\~N f+2,1 (72 dmg)
+: SSR d/f+1+2,3 S! b+2,f\~N(x4) f+2,1 (71 dmg)
+
+BT u/f+3,4
+: b+3,3,f\~N 2 f+4,1 S! b+2,f\~N f+2,1 (72 dmg)
+
 <!-- https://discordapp.com/channels/361852916203651074/362381291905351692/601635972823908353 -->
+BT d/f+3,2,3
+: Notes:
+  - If left of opponent's center back, delay d+2
+  - If right of opponent's center back, do d+2 immediately
+  - If somewhat left of center and they are face up from b+2, then ws2 must be delayed
+  - If far enough that b+2 is going to turn them face-down, then ws2 must be immediate
 
-d/f+3,2,3 2 d+2 b+2,f\~N ws2,4 S! b+4 d+3 (97 dmg)
+  Staple damage at most angles:
+  - 2 d+2 b+2,4,3 S! b+2,f\~N f+2,1 (91 dmg)
 
-This is the max damage at most angles. Note:
+  Max damage at most angles:
+  - 2 d+2 b+2,f\~N ws2,4 S! b+4 d+3 (97 dmg)
 
-- If you are left of the opponent's center back, you need to delay d+2
-- If you are right of their center back, you need to not delay d+2
-- If you are somewhat left of center and they are face up from b+2, then ws2 must hit very late to connect
-- If you are far enough that b+2 is going to turn them face-down, then there must be no delay for the ws2 to connect
+  Dead center or slightly left of opponent's center back:
+  - 2 f,F\~4,u+3 b+2,f\~N b+1:1,f\~N ws2,4 S! wr3,4 (99 dmg)
 
-Other higher damage juggles:
+  vs. Large normals, somewhat right of opponent's center back:
+  - 2 d+2 b+2,f\~N ws2,4 S! b+4 u/b+3 (100 dmg)
 
-- d/f+3,2,3 2 f,F\~4,u+3 b+2,f\~N b+1:1,f\~N ws2,4 S! wr3,4\\
-  (dead center or slightly left of opponent's middle back, 99 dmg)
-- d/f+3,2,3 2 d+2 b+2,f\~N ws2,4 S! b+4 u/b+3\\
-  (vs. large normals, somewhat right of opponent's center back, really tough timing on the finish, 100 dmg)
-
-With rage, comboing anywhere from left of center back becomes very easy for good damage:
-
-- d/f+3,2,3 4,u+3 d/f+3+4,f\~N ws2,4 S! b+4 d+3 (114 dmg)
+  With rage, from left of opponent's center back:
+  - 4,u+3 d/f+3+4,f\~N ws2,4 S! b+4 d+3 (114 dmg)
 </details>
 
 <details>
@@ -319,17 +355,6 @@ If the spring kick hits an aerial opponent, then d/f+4 and d+4,4,u+3,f\~N
 pickups won't work, since there's too much pushback. Instead, you can try
 b+3,3,f\~N which might be too slow.
 </details>
-
-## BT combos
-[link wanted here]
-
-## Off-axis combos
-u/f+4
-d/f+2
-MS 3,4
-u/f\~N,4
-: 4,u+3,f\~N f+4,1 S! b+2,f\~N(x2) f+2,1
-: 4,u+3,f\~N f+4,1 S! 1,2,f\~N f+2,1
 
 ## Juggle distance
 <https://www.youtube.com/watch?v=rnViLJDp2OQ>

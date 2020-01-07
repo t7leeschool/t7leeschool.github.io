@@ -48,6 +48,18 @@ title: Moves
 <details>
 <summary markdown="0">b+1:1,3+4</summary>
 
+- Starts at i15, -1 on block, +10 on hit and counter hit.
+- The non-hms transition version (b+1:1) is -5 on block, +6 on hit and counter hit
+- Best used as a hit confirmable string with b+1:1,2 being the hit confirm and b+1:1,3+4 being the recovery in hms for handling retaliations.
+- Recovering at -1 in HMS on block means that HMS 1 will trade with i13 retaliations.
+  - However, the pushback on this transition is the main attraction here.
+  - The pushback makes it difficult for the opponent to impose retaliation and can cause then to whiff fast responses like jabs and df+1 mids.
+- Being -1 also helps in securing Lee from most high and mid retaliations with HMS 3 (jabs will get power crushed, however still allowing the opponent to duck under HMS 3 upon recovery). Any retaliation slower than i10 will get powercrushed and activate the HMS 3 attack throw animation for 20 damage.
+  - HMS 3 being homing, aerial screw and a power crush helps this transition be a good pressure tool when the opponent has their back at the wall. Most Lee players will use either b+1:1,3+4 or his other homing moves to keep walled opponents in check.
+- b+1:1 tracks to Lee's right with the just frame and the second hit also tracks (regardless of the just frame) to Lee's right, which catches the opponent trying to side step to their left (Lee's weak side). Well used as a tool to discourage SSL.
+- Opponents will usually duck when they see b+1:1 to duck the next hit in the string (b+1:1,2). There are mind games opportunities here based on whether you complete the string or choose to utilize the pressure.
+- Added advantage with an optional transition into MS with b+1:1,f~N makes Lee -5 on block and +1 on hit and counter hit. This further sets up mind games when combined with movement and hard reads on the opponent's retaliations.
+
 </details>
 
 <details>

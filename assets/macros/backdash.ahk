@@ -27,38 +27,45 @@ StepToFrame(t0, frame) {
    return frame
 }
 
-backdash(t0, c0 := 0, d := 10) {
+backdash(t0, c0 := 0, d := 10, i := 1) {
    StepToFrame(t0, c0)
    Send {a down}
    StepToFrame(t0, c0 + 1)
    Send {a up}
    StepToFrame(t0, c0 + 2)
    Send {a down}
-   StepToFrame(t0, c0 + 3)
-   Send {a up}
    StepToFrame(t0, c0 + 3 + d)
-   Send {s down}{a down}
+   if (i == 5) {
+      Send {s down}
+   }
+   else {
+      Send {s down}{a up}
+   }
    StepToFrame(t0, c0 + 4 + d)
-   Send {s up}{a up}
+   if (i == 5) {
+      Send {a up}{s up}
+   }
+   else {
+      Send {s up}
+   }
    return c0 + 4 + d
 }
 
 ^r::Reload
 
-^i::
+^b::
+InputBox n, "Enter backdash length"
+if n is not integer
+   n := 0
 t0 := StartTimer()
+c := StepToFrame(t0, 15)
 Send {s up}{a up}{e down}{o down}
-StepToFrame(t0, 2)
+c := StepToFrame(t0, c + 2)
 Send {e up}{o up}
-c := StepToFrame(t0, 30)
+c := StepToFrame(t0, c + 18)
 Loop 5 {
-   ; c := backdash(t0, c - 5, 0) ; no backdashes, just sync breathe cycle
-   c := backdash(t0, c, 18) ; last number is length of backdashes
+   c := backdash(t0, c, n, A_Index)
 }
-Send {s down}{a down}
-c := StepToFrame( t0, c + (59 - Mod(c + 5, 60)) )
-Send {s up}{a up}
-StepToFrame(t0, c + 1)
-Send {s down}{a down}
+; Send {s down}
 EndTimer()
 return

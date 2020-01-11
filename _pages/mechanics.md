@@ -12,7 +12,7 @@ title: Mechanics
 : <https://www.youtube.com/watch?v=SaqC8J69Gy4>
 
 **Backdash lengths**
-: <https://cthor.me/Backdashes/>
+: <https://cthor.me/Backdashes>
 
 <details>
 <summary markdown="0">Input buffering</summary>

@@ -11,6 +11,9 @@ title: Mechanics
 **Back Turned State Test & Tip: Blocking and Frames** by Tekken Lab
 : <https://www.youtube.com/watch?v=SaqC8J69Gy4>
 
+**Backdash lengths**
+: <https://cthor.me/Backdashes/>
+
 <details>
 <summary markdown="0">Input buffering</summary>
 <!-- https://discordapp.com/channels/361852916203651074/362318093097107458/597010680226512908 -->
@@ -23,26 +26,6 @@ yoshi's dp2 is bufferable because the move is just dp2, not [stance you enter wi
 meanwhile, with kazuya, dp enters his crouchdash
 
 [more detailed link wanted here]
-</details>
-
-<details>
-<summary markdown="0">Backdash lengths</summary>
-<!-- https://discordapp.com/channels/361852916203651074/362318093097107458/437427720100773899 -->
-Backdashes at the end (long/full) maintain their speed for the whole dash,
-while ones at the front (short/average) are only fast early on. You want to
-cancel whenever you start to slow down, so shorter dashes should be cancelled
-faster.
-
-Very | Short | Semi- | Average | Semi- | Long | Semi- | Full
-Eliza|Bryan|Nina|Bob|Akuma|Drag|Feng|Alisa
-|Claudio|Shaheen|Hwo|Asuka|Hei|Jack|Eddy
-|Gigas|Yoshi|Katarina|Devil Jin|Kazuya|Maven|
-|Josie||King|Jin|Lars|Paul|
-|Kuma||Law|Kazumi|Leo||
-|Lee||Lucky Chloe|Miguel||
-|Lili|||Xiaoyu||
-|Steve|||||
-
 </details>
 
 <details>

@@ -147,6 +147,7 @@ u/f\~N,4
 CH b+4
 CH (f+4),3
 CH HMS u/f+4
+BT u/f+4
 d/f+3+4,f\~N
 : 4,u+3 b+2,f\~N(x3) ws2,4 S! f+2,1
 : 4,u+3 b+2,f\~N ws2,4 S! b+2,f\~N ws2,3
@@ -182,8 +183,8 @@ CH (f+4),3,4
 
 ws2,3
 CH u/b+3
-: d/f+3+4,f\~N, ws2,3 b+2,f\~N(x2) f+4,1 S! f+2,1
-: d/f+3+4,f\~N, ws2,3 b+2,f\~N f+4,1 S! f+2,1
+: d/f+3+4,f\~N ws2,3 b+2,f\~N(x2) f+4,1 S! f+2,1
+: d/f+3+4,f\~N ws2,3 b+2,f\~N f+4,1 S! f+2,1
 
 CH Sway 4
 : d+2 d+2 b+2,f\~N(x3) f+4,1 S! f+2,1
@@ -233,8 +234,8 @@ CH (HMS 1),4,3
 
 CH (2,1),3
 CH (b+1+2),4
-: 4,u+3 b+2,f\~N(x4) f+2,1
-: 4,u+3 b+2,f\~N 1,2,f\~N f+2,1
+: 4,u+3 b+2,f\~N(x4) ws2,3
+: 4,u+3 b+2,f\~N 1,2,f\~N ws2,3
 
 (d/f+3,2),3
 : 2,2,3 S! b+2,f\~N 1,2,f\~N f+2,1
@@ -259,7 +260,7 @@ Bears
 
 Gigas, Jack, Marduk
 : b+1:1,2
-: b+1:1,f\~N f\~b+3,3,f\~N ws2,4 S! d,D/B+4
+: b+1:1,f\~N f\~b+3,3,f\~N ws2,4 S! f+1+2
 
 Bears
 : b+2,4,3 S! b+2,f\~N(x3) f+2,1
@@ -341,6 +342,59 @@ BT d/f+3,2,3
 
   With rage, from left of opponent's center back:
   - 4,u+3 d/f+3+4,f\~N ws2,4 S! b+4 d+3 (114 dmg)
+</details>
+
+<details>
+<summary markdown="0">Triple Fang link (b+2,f~N b+1:1,f~N)</summary>
+
+This is a very advanced combo tool. Its purpose is to get more wall carry.
+Either you get an extra aerial hit, or you get ws2,3 as the ender instead of
+f+2,1.
+
+For the b+1 to connect it *must* be input in the buffer period (or linked
+perfectly), which means that b and 1 must be pressed on the same frame. (See
+[b2 loops - Buffering](/b2-loops#buffering).)
+
+For combo purposes b+1:1,f\~N and b+1,1,f\~N are the same, but the former does
+1 more damage.
+
+<div class="p cols-mm12">
+u/f+4
+d/f+2
+MS 3,4
+u/f\~N,4
+CH b+4
+CH (f+4),3
+CH HMS u/f+4
+d/f+3+4,f\~N
+: 4,u+3 b+2,f\~N(x3) b+1:1,f\~N f+4,1 S! f+2,1
+
+f+3,3,3,3,3,4
+: 4,u+3 b+2,f\~N(x2) b+1:1,f\~N ws2,3
+
+<!-- -->
+
+low parry
+: F~4,u+3 b+2,f~N(x3) b+1:1,f\~N f+4,1 S! f+2,1
+
+CH HMS 4
+FC u/f+4
+CH FUFT 3
+CH FUFA 3
+CH FDFT 3
+: ws2,3 b+2,f\~N(x3) b+1:1,f\~N f+4,1 S! f+2,1
+
+CH d+3,4
+CH 1+2
+CH 1+2,3+4
+CH (2,1),1
+CH (u/f+3),1
+: b+3,3,f\~N b+2,f\~N(x3) b+1:1,f\~N f+4,1 S! f+2,1
+
+ws2,3
+: d/f+3+4,f\~N S! d+2 b+2,f\~N(x3) b+1:1,f\~N f+4,1 S! f+2,1
+</div>
+
 </details>
 
 <details>

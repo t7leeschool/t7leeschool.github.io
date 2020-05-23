@@ -286,6 +286,40 @@ c := f41(t0, c + 3)
 EndTimer()
 return
 
+^c::
+t0 := StartTimer()
+Send {s down}{a down}{i down}
+c := StepToFrame(t0, 2)
+Send {s up}{a up}{i up}
+c := StepToFrame(t0, 31)
+Send {d down}
+c := StepToFrame(t0, c + 2)
+Send {d up}
+c := StepToFrame(t0, c + 2)
+Send {d down}
+c := StepToFrame(t0, c + 1)
+Send {o down}
+c := StepToFrame(t0, c + 5)
+Send {d up}{o up}
+EndTimer()
+return
+
+^v::
+t0 := StartTimer()
+Send {o down}{p down}
+c := StepToFrame(t0, 2)
+Send {o up}{p up}
+c := StepToFrame(t0, c + 8)
+Send {o down}
+c := StepToFrame(t0, c + 2)
+Send {o up}
+c := StepToFrame(t0, c + 128)
+Send {s down}{d down}{p down}
+c := StepToFrame(t0, c + 2)
+Send {s up}{d up}{p up}
+EndTimer()
+return
+
 ^b::
 t0 := StartTimer()
 c := uf4(t0)

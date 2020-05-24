@@ -335,18 +335,30 @@ BT d/f+3,2,3
   With rage, from left of opponent's center back:
   - 4,u+3 d/f+3+4,f\~N ws2,4 S! b+4 d+3 (114 dmg)
 
-## Triple Fang link
+## b1 link
 
-Triple Fang link (b+2,f~N b+1:1,f~N) is a very advanced combo tool. Its
-purpose is to get more wall carry. Either you get an extra aerial hit, or you
-get ws2,3 as the ender instead of f+2,1.
+Doing b+2,f\~N b+1:1,f\~N in a combo is called a b1 link (also called Triple
+Fang link). Its main purpose is to get more wall carry.
+
+Since b+1:1,f\~N travels further than b+2,f\~N, it allows you to either get an
+extra aerial hit, get ws2,4 as the screw instead of f+4,1, or get ws2,3 as the
+ender instead of f+2,1.
 
 For the b+1 to connect it *must* be input in the buffer period (or linked
 perfectly), which means that b and 1 must be pressed on the same frame. (See
 [b2 loops - Buffering](/b2-loops#buffering).)
 
-For combo purposes b+1:1,f\~N and b+1,1,f\~N are the same, but the former does
+One technique for doing this [given by
+TZMurakumo](https://www.youtube.com/watch?v=S7VgFmML2yk) is to piano the 1
+button with two fingers to hit it twice. This is a placebo, since the extra
+button press doesn't actually give you an extra "chance" to hit the link, but
+many people find this technique useful anyway.
+
+For carry purposes b+1:1,f\~N and b+1,1,f\~N are the same, but the former does
 1 more damage.
+
+This is an advanced technique, having a tight execution requirement for
+relatively little reward. Beginners should stay far away.
 
 <div class="p cols-mm12">
 u/f+4
@@ -361,6 +373,9 @@ d/f+3+4,f\~N
 
 f+3,3,3,3,3,4
 : 4,u+3 b+2,f\~N(x2) b+1:1,f\~N ws2,3
+
+CH 4
+: b+1:1,f\~N 4,u+3 b+2,f\~N b+1:1,f\~N ws2,4 S! f+2,1
 
 <!-- -->
 
@@ -405,15 +420,47 @@ b+3,3,f\~N which might be too slow.
 
 ## Floor break
 
-<!-- https://discordapp.com/channels/361852916203651074/362318093097107458/449722984450621441 -->
-At the wall, after a f43 to break you can do 4u3 to f4,3 -> d 3\\
-otherwise you want to go for a break that doesnt leave you BT (wr34 does this on hit without a combo) and do a generic bnb\\
-adapt for the hit that the floor break was\\
-so, if you somehow broke on the 2nd hit, you want to do the 4u3 b2 b2 b2 f21 combo\\
-or 4u3 b2 ws 24 b2 (make sure hits wall) b2 f43 d3\\
-because of how floor breaks work you likely wont get a standard bnb like you do a from a balcony break, but it's worth tring to wall carry\\
-especially as Forgotten Realm is a fairly clostrophobic stage\\
-I tend to do a bnb up until screw, then do WR34 to break and do SSR b4 for oki on floor breaks on a longer combo\\
-If you have <4 bar then only do 2x b2s so the WR34 is guaranteed
+Short answer: do 4,3,3 F! 4 b+4 u/b+3 at the wall.
 
-[more detailed info wanted here]
+Lee has many useful floor breaking moves. They differ in how many hits they
+do, whether they leave the opponent face-down or face-up, and how easy they
+are to connect.
+
+Move | # of hits | Damage | Post-break state
+|--|:-:|:-:|:-:|
+1+2 | 1 | 20 | Face-down
+wr3,4 | 2 | 14, 26 | Face-down
+4,3,3 | 3 | 16, 14, 20 | Face-down
+b+4 | 1 | 22 | Face-up
+f+4,3 | 2 | 13, 18 | Face-up
+f+3+4 | 2 | 10, 20 | Face-up
+
+Floor breaks reduce damage scaling significantly, so you want to do as much of
+your combo as possible before the break. This means you're mostly doing the
+break at or near the wall.
+
+Post-break, your options depend on how much wall slump you've built up. Every
+hit on the wall with the opponent's feet to the ground builds up slump.
+However, the move that breaks the floor does not build up slump. So a 1-hit
+floor break will build no slump and you can do a regular wall combo, but a
+2-hit floor break will build 1 bit of wall slump and you'll have to adjust.
+
+Opponent state | # of slump | Wall combo | Damage
+|:-:|:-:|--|:-:|
+Face-down | 0 | 4,u+3 f+4,3 d+3 | 20
+Face-down | 1 | 4,u+3 f,F+3 | 18
+Face-down | 2 | 4 b+4 u/b+3 | 17
+Face-up | 0 | d/f+1 f+4,3 d+3 | 14
+Face-up | 1 | 4,u+3 | 13
+Face-up | 2+ | b+4 d+3 | 11
+
+Note that 4 will cause a high splat against face-down opponents but not face-up
+ones. This generally makes the face-down combos better.
+
+Since 4,3,3 does much more damage than the other breaks, the ideal floor combo
+at the wall is 4,3,3 F! 4 b+4 u/b+3.
+
+However, sometimes you don't have a good enough splat and instead have to do
+wr3,4. In this case the wall combo is pretty tough to do, because you can't
+buffer the f,F+3, and you can get 4,u+3,f\~N accidentally. Doing the 2 slump
+combo still works at the cost of 1 damage.

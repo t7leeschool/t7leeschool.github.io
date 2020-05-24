@@ -41,8 +41,8 @@ D,d/b,b\\
 D/F,b\\
 Hold the first input during the transition, then do the rest exactly as the transition finishes
 
-<details>
-<summary markdown="0">Fast HMS u/f+3</summary>
+## Fast HMS u/f+3
+
 In the buffer period of an HMS transition:
 
 - If you input u before u/f or 3, then HMS sidestep gets buffered
@@ -54,9 +54,7 @@ In other words, you must input u/f and 3 on the same frame to buffer it.
 The other option is to time the input perfectly. In this case, you input U/F in the buffer and press 3 when the transition finishes. You'll get a forward jump only if the 3 is pressed extremely late.
 
 3+4 takes 10 frames, so from neutral the fastest you can do HMS u/f+3 is 30 frames.
-</details>
 
-## b+1:1, f\~N after b+2, f\~N in juggles
+## b+1:1,f\~N after b+2,f\~N in juggles
 
-<https://www.youtube.com/watch?v=S7VgFmML2yk>\\
-(extremely hard even with practice, not staple)
+See [Combos - b1 link](/combos#b1-link).

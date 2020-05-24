@@ -57,13 +57,13 @@
   --main-bg: #222;
   --main-fg: #eee;
   --main-anchor: #00a7f0; // hsluv 240 100 65
-  --main-visited: #93ccff; // xhsluv 240 100 80
+  --main-visited: #93ccff; // hsluv 240 100 80
   --main-rule: #ccc;
 
   --nav-bg: #111;
   --nav-fg: #eee;
-  --nav-cat: #60d7e0; // hsluv 200 80 80
-  --nav-pip: #888;
+  --nav-cat: #00bec7; // hsluv 200 100 70
+  --nav-pip: #30b5ff; // hsluv 120 100 70
   --nav-hover: #666;
 
   --flash-bg: #1a2733; // hsluv 0 50 15
@@ -84,8 +84,8 @@ html {
 // Site layout
 // #############################################################################
 
-$nav-width: 12em;
-$main-width: 45em;
+$nav-width: 14em;
+$main-width: 50em;
 
 body {
   background-color: var(--main-bg);
@@ -104,32 +104,32 @@ nav {
   top: 0;
   left: 0;
   width: $nav-width;
+  max-width: calc(100vw - 1.5em);
   overflow-x: hidden;
-  overflow-y: hidden;
-  height: 100%;
-  max-height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  height: 100vh;
   font-weight: bold;
   font-variant: small-caps;
   z-index: 99;
 }
 
-.toc-scroll {
-  width: ($nav-width + 1em);
-  overflow-y: scroll;
-  overflow-x: hidden;
-  height: 100%;
+nav ul {
+  padding-left: 0;
+  list-style-type: none;
 }
 
-.toc-cat {
-  margin-bottom: 1.5em;
+.index-catlabel {
+  margin-top: 1.5em;
+  padding-left: 0.5em;
 }
 
-.toc-heading,
-.toc-item {
-  padding: 0.3em 0.6em;
+.index-entry a,
+.toc a {
+  padding: 0.3em 0.25em 0.3em 1em;
 }
 
-.toc-heading {
+.index-catlabel {
   color: var(--nav-cat);
   margin-top: 1em;
   font-size: 1.1em;
@@ -137,32 +137,61 @@ nav {
   font-weight: normal;
 }
 
-.toc-item {
-  border-left: 0.5em solid transparent;
-  color: inherit;
-  display: block;
-  text-decoration: none;
+.index-entry,
+.toc li {
+  position: relative;
 
-  &:visited {
-    color: inherit;
+  &::after {
+    transition: color 0.2s;
+    color: transparent;
+    content: '\2014';
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    left: -0.1em;
+    transform: translateY(-50%);
   }
 
-  &:hover,
-  &.current {
+  &.current::after {
+    color: var(--nav-pip);
+  }
+
+  & > a {
+    border-right: 0.5em solid transparent;
+    color: inherit;
+    display: block;
+    text-decoration: none;
+
+    &:visited {
+      color: inherit;
+    }
+  }
+
+  & > a:hover {
     text-decoration: none;
     background-color: var(--nav-hover);
   }
+}
 
-  &.current {
-    border-left: 0.5em solid var(--nav-pip);
-  }
+.toc {
+  line-height: 1;
+  li a { padding-left: 1.8em; }
+  ul li a { padding-left: 2.6em; }
+  ul ul li a { padding-left: 3.4em; }
+}
+
+body {
+  padding-left: $nav-width;
 }
 
 main {
-  margin-left: $nav-width;
   max-width: $main-width;
+}
+
+footer {
   padding: 0;
-  padding-bottom: 10em;
+  height: 100vh;
+  max-width: $main-width;
 }
 
 main > * {
@@ -209,7 +238,10 @@ nav {
 
   main {
     margin-top: 3.5em;
-    margin-left: 0;
+  }
+
+  body {
+    padding-left: 0;
   }
 
   body:not(.expanded) nav {
@@ -217,7 +249,9 @@ nav {
   }
 
   h1 {
-    display: none;
+    position: fixed;
+    top: 0;
+    transform: translateY(-100%);
   }
 
   main > * {
@@ -226,6 +260,7 @@ nav {
 }
 
 .help {
+  transform: translateY(300%);
   text-align: center;
   font-family: var(--sans);
   font-size: 1em;
@@ -239,7 +274,8 @@ nav {
 // Page layout
 // #############################################################################
 
-main a {
+main a,
+footer a {
   color: var(--main-anchor);
   text-decoration: none;
   word-break: break-word;
@@ -309,7 +345,7 @@ h2, summary {
   font-weight: bold;
 }
 
-h3 {
+h3, h4, h5, h6 {
   font-size: 1em;
 }
 

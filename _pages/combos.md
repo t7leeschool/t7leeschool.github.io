@@ -1,9 +1,9 @@
 ---
 title: Combos
+toc: 1
 ---
 
-## Video overview
-<https://www.youtube.com/watch?v=wPN2z9Ls9dU>
+[Video overview](https://www.youtube.com/watch?v=wPN2z9Ls9dU)
 
 <!-- http://www.tekkenzaibatsu.com/forums/showthread.php?threadid=132650 -->
 <!-- https://discordapp.com/channels/361852916203651074/362381291905351692/557816926538170380 -->
@@ -12,10 +12,11 @@ title: Combos
 
 Regular launch | 4,u+3 | b+2,f\~N f+4,1 S! b+2,f\~N f+2,1
 Pickup launch | b+3,3,f\~N | b+2,f\~N f+4,1 S! b+2,f\~N f+2,1
-Recovers crouching | ws2,3 | b+2,f\~N f+4,1 S! b+2,f\~N f+2,1
+Crouching launch | ws2,3 | b+2,f\~N f+4,1 S! b+2,f\~N f+2,1
 
-<details>
-  <summary markdown="0">Mini-combos (guaranteed damage)</summary>
+
+## Mini-combos (guaranteed damage)
+
 <div class="p grid-mm12">
 ws2,3
 CH u/b+3
@@ -65,10 +66,9 @@ d+4,N,4,3,3
 : d+3 (sometimes whiffs)
 : u/b+3 (sometimes whiffs)
 </div>
-</details>
 
-<details>
-<summary markdown="0">Concepts</summary>
+
+## Concepts
 
 The key combo moves and their function are:
 
@@ -135,10 +135,9 @@ Enders:
 - b+4; 1+2; and d/b+3 spike to setup oki
 - d/f+3,2,3 works as aerial hits 5--7
 - d/f+3,2,3 does 13 damage at max scaling in 3 hits
-</details>
 
-<details>
-<summary markdown="0">Staples</summary>
+## Staples
+
 <div class="p grid-mm12">
 u/f+4
 d/f+2
@@ -240,34 +239,29 @@ CH (b+1+2),4
 (d/f+3,2),3
 : 2,2,3 S! b+2,f\~N 1,2,f\~N f+2,1
 </div>
-</details>
 
-<details>
-<summary markdown="0">Character-specific</summary>
-<!-- https://discordapp.com/channels/361852916203651074/362381291905351692/600686465407778845 -->
-### CH Sway 4
+## Character-specific
 
-AK, Bob, Bryan, Drag, Maven, Feng, Geese, Hei, King, Miguel, Paul, Shaheen, Steve
-: 4,u+3 b+2,f\~N(x3) f+4,1 S! f+2,1
+CH Sway 4
+: AK, Bob, Bryan, Drag, Maven, Feng, Geese, Hei, King, Miguel, Paul, Shaheen, Steve
+  : 4,u+3 b+2,f\~N(x3) f+4,1 S! f+2,1
 
-Gigas, Jack, Marduk
-: d/f+4 b+3,3,f\~N b+2,f\~N(x2) f+4,1 S! f+2,1
+  Gigas, Jack, Marduk
+  : d/f+4 b+3,3,f\~N b+2,f\~N(x2) f+4,1 S! f+2,1
 
-Bears
-: b+3,3,f\~N b+2,f\~N(x3) f+4,1 S! f+2,1
+  Bears
+  : b+3,3,f\~N b+2,f\~N(x3) f+4,1 S! f+2,1
 
-### ws2,3
+ws2,3
+: Gigas, Jack, Marduk
+  : b+1:1,2
+  : b+1:1,f\~N f\~b+3,3,f\~N ws2,4 S! f+1+2
 
-Gigas, Jack, Marduk
-: b+1:1,2
-: b+1:1,f\~N f\~b+3,3,f\~N ws2,4 S! f+1+2
+  Bears
+  : b+2,4,3 S! b+2,f\~N(x3) f+2,1
 
-Bears
-: b+2,4,3 S! b+2,f\~N(x3) f+2,1
-</details>
+## Extras
 
-<details>
-<summary markdown="0">Extras</summary>
 f+3,3,3,3,3,4
 : 4,u+3 b+2,f\~N(x3) &lt;f+2,1
 
@@ -281,10 +275,9 @@ CH (u/f+3),1
 
 d,D/B+4
 : 3\~3:4
-</details>
 
-<details>
-<summary markdown="0">Off-axis</summary>
+## Off-axis
+
 u/f+4
 d/f+2
 MS 3,4
@@ -292,10 +285,9 @@ u/f\~N,4
 : 4,u+3,f\~N d+2 f+4,1 S! b+2,f\~N f+2,1
 : 4,u+3,f\~N f+4,1 S! b+2,f\~N(x2) f+2,1
 : 4,u+3,f\~N f+4,1 S! 1,2,f\~N f+2,1
-</details>
 
-<details>
-<summary markdown="0">Back-turned</summary>
+## Back-turned
+
 Against big characters with short legs (Gigas, Jack, Marduk, bears):
 
 - Dead center of opponent's back:
@@ -342,14 +334,12 @@ BT d/f+3,2,3
 
   With rage, from left of opponent's center back:
   - 4,u+3 d/f+3+4,f\~N ws2,4 S! b+4 d+3 (114 dmg)
-</details>
 
-<details>
-<summary markdown="0">Triple Fang link (b+2,f~N b+1:1,f~N)</summary>
+## Triple Fang link
 
-This is a very advanced combo tool. Its purpose is to get more wall carry.
-Either you get an extra aerial hit, or you get ws2,3 as the ender instead of
-f+2,1.
+Triple Fang link (b+2,f~N b+1:1,f~N) is a very advanced combo tool. Its
+purpose is to get more wall carry. Either you get an extra aerial hit, or you
+get ws2,3 as the ender instead of f+2,1.
 
 For the b+1 to connect it *must* be input in the buffer period (or linked
 perfectly), which means that b and 1 must be pressed on the same frame. (See
@@ -395,11 +385,9 @@ ws2,3
 : d/f+3+4,f\~N S! d+2 b+2,f\~N(x3) b+1:1,f\~N f+4,1 S! f+2,1
 </div>
 
-</details>
+## Spring kick
 
-<details>
-<summary markdown="0">Spring kick (FUFT 3+4)</summary>
-Spring kick has 12 active frames. It typically connects on the 8--9th, unless the opponent is running into it.
+Spring kick (FUFT 3+4) has 12 active frames. It typically connects on the 8--9th, unless the opponent is running into it.
 
 - If it connects on the 11th frame, you can combo with d+4,4,u+3,f\~N, f+4,1 S!
 - If it connects on the 12th frame, you can combo with d/f+4 b+3,3,f\~N f+4,1 S!
@@ -408,7 +396,6 @@ Spring kick has 12 active frames. It typically connects on the 8--9th, unless th
 If the spring kick hits an aerial opponent, then d/f+4 and d+4,4,u+3,f\~N
 pickups won't work, since there's too much pushback. Instead, you can try
 b+3,3,f\~N which might be too slow.
-</details>
 
 ## Juggle distance
 <https://www.youtube.com/watch?v=rnViLJDp2OQ>
@@ -416,8 +403,8 @@ b+3,3,f\~N which might be too slow.
 ## Balcony break
 <https://www.youtube.com/watch?v=ntjca7KSB9Q>
 
-<details>
-<summary markdown="0">Floor break</summary>
+## Floor break
+
 <!-- https://discordapp.com/channels/361852916203651074/362318093097107458/449722984450621441 -->
 At the wall, after a f43 to break you can do 4u3 to f4,3 -> d 3\\
 otherwise you want to go for a break that doesnt leave you BT (wr34 does this on hit without a combo) and do a generic bnb\\
@@ -430,4 +417,3 @@ I tend to do a bnb up until screw, then do WR34 to break and do SSR b4 for oki o
 If you have <4 bar then only do 2x b2s so the WR34 is guaranteed
 
 [more detailed info wanted here]
-</details>

@@ -1,5 +1,6 @@
 ---
 title: Acid Rain
+toc: 1
 ---
 
 The timing for the best method is:
@@ -23,7 +24,7 @@ However, like b2 loops, this optimization is still nowhere near the highest
 priority, so you should only start practising it once you feel confident you
 want to play Lee.
 
-## Details
+## Input windows
 
 The inputs and their windows are:
 

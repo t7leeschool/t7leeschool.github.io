@@ -24,24 +24,34 @@
   </head>
   <body>
     <nav>
-      <div class="toc-scroll">
-        <div class="toc">
-          {% for cat in site.data.toc %}
-          <div class="toc-cat {{ cat[0] }}">
-            <div class="toc-heading">{{ cat[0] | capitalize }}</div>
-            {% for path in cat[1] %}
-              {% assign entry = site.pages | where: 'id', path | first %}
-              <a
-                class="toc-item {% if entry.title == page.title %}current{% endif %}"
-                href="{{ entry.url }}">
-                {{ entry.title }}
-              </a>
-            {% endfor %}
-          </div>
+      <div class="index">
+        {% for cat in site.data.toc %}
+          <div class="index-catlabel">{{ cat[0] | capitalize }}</div>
+          <ul class="index-cat {{ cat[0] }}">
+          {% for path in cat[1] %}
+            {% assign entry = site.pages | where: 'id', path | first %}
+
+            {% if entry.title == page.title %}
+              <li class="index-entry {% if entry.title == page.title %}current{% endif %}">
+                <a href="#title">{{ entry.title }}</a>
+              </li>
+            {% else %}
+              <li class="index-entry"><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+            {% endif %}
+
+            {% if entry.title == page.title and page.toc %}
+              <li>{% include toc.html
+                html=content
+                class='toc'
+                h_max=4
+                %}</li>
+            {% endif %}
           {% endfor %}
-        </div>
+          </ul>
+        {% endfor %}
       </div>
     </nav>
+
     <main>
       <div class="menu-bar">
         <span class="menu-btn">
@@ -52,62 +62,20 @@
         </span>
         <span class="menu-title">{{ page.title }}</span>
       </div>
-      <h1 class="full-heading">{{ page.title }}</h1>
+      <h1 class="full-heading" id="title">{{ page.title }}</h1>
+
 {{ content }}
-      <hr>
-      <p class="help">
+    </main>
+
+    <footer>
+      <div class="help">
         Something missing?<br>
         <a href="https://github.com/t7leeschool/t7leeschool.github.io/blob/master/{{ page.path }}">
           Edit this page
         </a>
-      </p>
-    </main>
-    <script>
-      var closeMenu = function closeMenu (e) {
-        document.body.classList.remove('expanded');
-        document.querySelector('main').removeEventListener('click', closeMenu);
-      }
+      </div>
+    </footer>
 
-      document.querySelector('.menu-btn').addEventListener('click', function (e) {
-        e.stopPropagation();
-        document.body.classList.add('expanded');
-        document.querySelector('main').addEventListener('click', closeMenu);
-      });
-    </script>
-    <script>
-      document.querySelectorAll('audio').forEach((el) => {
-        if (!el.loop) return;
-        var t0;
-
-        el.addEventListener(
-          'seeked',
-          function testLoop (e) {
-            var t = performance.now();
-
-            if (typeof el.duration !== 'undefined' && typeof t0 !== 'undefined') {
-              var diff = Math.abs(t - t0 - el.duration * 1000);
-              if (diff < 200) {
-                // Loop found, stop testing
-                el.removeEventListener('seeked', testLoop);
-
-                if (diff > 80) {
-                  // Choppy loop, display warning
-                  var warning = document.createElement('p');
-                  warning.className = 'flash loop-warning';
-                  warning.innerHTML =
-                    'There’s a bug in Chrome that '
-                    + '<a href="https://bugs.chromium.org/p/chromium/issues/detail?id=353072">'
-                    + 'audio loops aren’t seamless.</a> '
-                    + 'Try Firefox or Edge for practise.';
-                  el.insertAdjacentElement('afterend', warning);
-                }
-              }
-            }
-
-            t0 = t;
-          },
-        );
-      });
-    </script>
+    <script type="text/javascript" src="/assets/js/main.js"></script>
   </body>
 </html>

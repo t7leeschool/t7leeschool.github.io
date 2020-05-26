@@ -1,11 +1,14 @@
 ---
-title: How do I?
+title: FAQ (How do I?)
 ---
 
-## b+2,f\~N ws2,4
+## ws from Mist Step (e.g. b+2,f\~N ws2,4)
 
-b, N, 2, 4\\
-Note the neutral: b must be released before pressing 2
+b\~N\~2\~4
+
+Note the neutral: b must be released before pressing 2. The motion must be
+quick, but also precise. If 2 is pressed before b is released, you'll get a
+jab instead.
 
 ## CH d+3,4 b+3,3,f\~N
 

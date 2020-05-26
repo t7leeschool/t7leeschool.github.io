@@ -45,7 +45,7 @@ b+4,3 (crouching opponent)
 <!-- -->
 
 FC d/f,d,D/F+3
-: 3 (wake-up low kick)
+: FUFA 3
 
 CH (2,1),4
 : 1,3:3:3 d,D/B+4
@@ -68,7 +68,7 @@ d+4,N,4,3,3
 </div>
 
 
-## Concepts
+## Key tools
 
 The key combo moves and their function are:
 
@@ -86,7 +86,7 @@ d/f+3+4        | 3              |            | SSL 3+4   | b+4
 
 The main purpose for all these options is to get the right wall carry.
 
-Damage:
+### Damage
 
 - 4,u+3 b+2,f\~N works as aerial hits 2--4
   - b+2,f\~N whiffs when off-axis
@@ -96,7 +96,7 @@ Damage:
   - at some angles, d+2 needs to hit close to the ground
   - at other angles, it needs to hit far from the ground
 
-Filler:
+### Filler
 
 - b+2,f\~N does 3 damage at max scaling and loops with itself
   - doesn't loop off-axis
@@ -105,7 +105,7 @@ Filler:
   - to do b+2,f\~N b+1:1,f\~N; b and 1 must be pressed on the same frame
 - d/f+1 b+2,f\~N and 2 b+2,f\~N work as aerial hits 3--4
 
-Screws:
+### Screws
 
 - fastest to slowest recovery:
   - b+2,4,3; ws2,4; f+4,1; 2,2,3; 2,1,3
@@ -123,7 +123,7 @@ Screws:
 - b+2,4,3 flips over face-down opponents
 - 2,2,3; d/f+1+2,3; and SSR 3+4 rotates the juggle to the right
 
-Enders:
+### Enders
 
 - longest to shortest carry:
   - f+2,1; ws2,3; f+1+2; d+2
@@ -288,13 +288,12 @@ u/f\~N,4
 
 ## Back-turned
 
-Against big characters with short legs (Gigas, Jack, Marduk, bears):
-
-- Dead center of opponent's back:
-  - S! b+2,f\~N doesn't work; just go straight for f+2,1
-  - b+2,4,3 S! f+2,1 as aerial hits 3--7 won't work; do b+2,f\~N f+4,1 S! f+2,1 instead
-- b+3,3,f\~N b+2,f\~N doesn't work
-- b+3,3,f\~N 2 sometimes doesn't work; try b+3,3,f\~N 1 instead
+Against big characters with short legs (Gigas, Jack, Marduk, bears)
+: Dead center of opponent's back:
+  : S! b+2,f\~N doesn't work; just go straight for f+2,1
+  : b+2,4,3 S! f+2,1 as aerial hits 3--7 won't work; do b+2,f\~N f+4,1 S! f+2,1 instead
+: b+3,3,f\~N b+2,f\~N doesn't work
+: b+3,3,f\~N 2 sometimes doesn't work; try b+3,3,f\~N 1 instead
 
 BT f+3,3,3,3,3,4
 : d+2 b+2,f\~N 1,2,f\~N f+2,1 (60 dmg)
@@ -315,6 +314,7 @@ BT u/f+3,4
 <!-- https://discordapp.com/channels/361852916203651074/362381291905351692/601635972823908353 -->
 BT d/f+3,2,3
 : Notes:
+
   - If left of opponent's center back, delay d+2
   - If right of opponent's center back, do d+2 immediately
   - If somewhat left of center and they are face up from b+2, then ws2 must be delayed
@@ -358,7 +358,7 @@ For carry purposes b+1:1,f\~N and b+1,1,f\~N are the same, but the former does
 1 more damage.
 
 This is an advanced technique, having a tight execution requirement for
-relatively little reward. Beginners should stay far away.
+relatively little reward. Beginners should stay away.
 
 <div class="p cols-mm12">
 u/f+4

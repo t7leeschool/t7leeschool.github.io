@@ -84,7 +84,6 @@ document.querySelectorAll('audio').forEach((el) => {
     while (i >= 0 && !mainEls[i].tocEntry) --i;
 
     let el = mainEls[i] || document.getElementById('title');
-    console.log(highlighted, el);
     if (highlighted && highlighted !== el) {
       highlighted.classList.remove('current');
     }

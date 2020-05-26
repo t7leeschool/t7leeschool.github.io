@@ -2,8 +2,7 @@
 title: Wall combos
 ---
 
-## Video guide
-<https://www.youtube.com/watch?v=c7uX8Tq4pq0>
+[Video overview](https://www.youtube.com/watch?v=c7uX8Tq4pq0)
 
 **Regular splat**
 : b+2,f\~N f+4,3 d+3

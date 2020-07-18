@@ -20,6 +20,9 @@ title: Fundamentals
 **Comprehensive Spacing Guide** by PhiDX
 : <https://www.reddit.com/r/Tekken/comments/6g5xa4/comprehensive_tekken_7_spacing_guide/>
 
+**On Analyzing Tekken Moves and Strings** by oh_no_valerie
+: <https://docs.google.com/document/d/1I35p54rL5QhtYA2Z8Ab8io-Het8Zwe-fsTSAAcTPAOo/edit>
+
 **How to Make Tekken a Lot Easier | Proper Defense Tutorial** by STK
 : <https://www.youtube.com/watch?v=7defat2c-Fo>
 

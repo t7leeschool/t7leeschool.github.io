@@ -167,7 +167,7 @@ excels at it. Beyond the moves from his basic gameplan, Lee has many more
 for stealing turns:
 
 ws3,3
-: the fastest mid in the game[^1] at i10
+: one of the fastest mids in the game at i10
 
 2,2,3
 : i10 CH string, for when the i11 of 4,4 isn't fast enough
@@ -408,7 +408,5 @@ recovers crouching. This is useful if you're interested in doing slide mixups.
 
 All HMS transitions are useful for this, but a transition with another purpose
 is preferable.
-
-[^1]: Apart from Yoshi's flash
 
 [^2]: 10 frames to get to full crouch with d/f; 3 frames to input d,D/F+3; and 16 frames for the slide itself.

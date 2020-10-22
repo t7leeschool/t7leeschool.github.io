@@ -226,7 +226,7 @@ full crouch.
 
 A common mistake is to think that with a fast enough input, the slide becomes
 "unseeable". This is nonsense. From standing, the fastest slide you can do is
-i29[^2]. Having a fast, precise slide input is important, but not because it
+i29[^1]. Having a fast, precise slide input is important, but not because it
 makes it unseeable from standing. The mixup is from crouch, not from standing.
 
 It might seem silly to note, but because the mixup is from crouch we should
@@ -409,4 +409,4 @@ recovers crouching. This is useful if you're interested in doing slide mixups.
 All HMS transitions are useful for this, but a transition with another purpose
 is preferable.
 
-[^2]: 10 frames to get to full crouch with d/f; 3 frames to input d,D/F+3; and 16 frames for the slide itself.
+[^1]: 10 frames to get to full crouch with d/f; 3 frames to input d,D/F+3; and 16 frames for the slide itself.
